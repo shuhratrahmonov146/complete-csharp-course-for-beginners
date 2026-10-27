@@ -1,0 +1,53 @@
+How do you keep a value from ever changing, and how do you turn text from the keyboard into a number safely? In this lesson, we build a real Course Fee Calculator in VS Code and learn C# constants and type conversion step by step. Everything is a real recording, with real builds, real output, real compiler errors, and two real bugs found by testing.
+
+This is episode 7 of the Complete C# Course for Beginners on ITHubCoding. It continues from Episode 6 (C# Data Types Explained). Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• Constants: const decimal DiscountRate = 0.10m; and why reassigning it is error CS0131
+• Why keyboard input is always text (CS0029: string to decimal)
+• decimal.TryParse: convert text safely, with a helpful message instead of a crash
+• Implicit conversion (int to decimal) vs. explicit conversion with a cast: (int)149.99m is 149
+• Calculating a discount and a final fee with decimal
+• Formatting money with F2 and percentages with P0, without assuming a currency
+• Common mistakes: the missing m suffix (CS0664) and decimal.Parse crashing on text (FormatException)
+• Testing with expected results first, and fixing two real bugs: a negative fee, and a receipt that was off by one cent
+
+CHAPTERS
+0:00 Introduction + preview
+1:29 What is a constant? (const, CS0131)
+4:49 Read numeric input with decimal.TryParse
+8:16 Implicit and explicit conversion (casts)
+11:12 Build the calculator
+13:33 Format the result (F2, P0)
+15:05 Common mistakes (CS0664, FormatException)
+17:36 Test the app (and fix two bugs)
+21:38 Practice challenge
+22:47 Recap + next: operators
+
+THE APP
+CourseFeeCalculator asks for the original course fee, rejects text and negative values with a helpful message, applies a constant 10% discount, rounds the discount to whole cents, and prints the original fee, discount rate, discount amount, and final fee. Example: 200.00 gives a discount of 20.00 and a final fee of 180.00.
+
+YOUR CHALLENGE
+Add a second constant, a service fee, and show the total to pay. The details are in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+const keyword: https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/const
+decimal.TryParse: https://learn.microsoft.com/dotnet/api/system.decimal.tryparse
+decimal.Parse: https://learn.microsoft.com/dotnet/api/system.decimal.parse
+Casting and type conversions: https://learn.microsoft.com/dotnet/csharp/programming-guide/types/casting-and-type-conversions
+Standard numeric format strings (F2, N2, C, P0): https://learn.microsoft.com/dotnet/standard/base-types/standard-numeric-format-strings
+Math.Round: https://learn.microsoft.com/dotnet/api/system.math.round
+Floating-point numeric types (decimal): https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• decimal.TryParse follows your computer's regional settings: with US English settings, type 149.99; with German settings, type 149,99.
+• The amounts are currency-neutral on purpose: the C format would show the currency of your computer's region.
+• The background music is original, made for this video.
+
+NEXT VIDEO
+Video 8: C# Operators Explained: Build a Simple Calculator
+
+Share your calculator output in the comments!
+
+#csharp #dotnet #programming
