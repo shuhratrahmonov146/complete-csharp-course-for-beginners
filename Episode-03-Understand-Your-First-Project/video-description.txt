@@ -1,0 +1,57 @@
+In this lesson, we open the C# project from the last two videos and find out what is really happening behind the scenes. You will learn what Program.cs and the .csproj file do, what "building" means, how dotnet build and dotnet run are different, and how to read and fix a real compiler error.
+
+This is episode 3 of the Complete C# Course for Beginners on ITHubCoding. It continues from Episode 1 ("Your First C# Program — From Zero to Hello World") and Episode 2 ("Install .NET and Set Up Your C# Development Environment"). You can find them in the course playlist.
+
+WHAT YOU WILL LEARN
+• What a project is, and the three kinds of files in it
+• Every part of Console.WriteLine("Hello, World!");
+• Top-level statements, and why you don't have to write a Main method yourself
+• The .csproj settings: OutputType, TargetFramework, ImplicitUsings, Nullable
+• The difference between the target framework and the SDK version
+• What dotnet build does, and how to read its output
+• dotnet build vs. dotnet run
+• How to predict a program's output before you run it
+• How to read and fix a real compiler error (CS1002: ; expected)
+• What the bin and obj folders are, and why you shouldn't edit them
+
+CHAPTERS
+0:00 Welcome back
+1:17 Explore a real C# project
+3:10 Understand Program.cs
+6:15 Understand the .csproj file
+8:55 What does building mean? (dotnet build)
+11:42 Run the application (dotnet run)
+12:53 Change the program yourself
+14:23 Debug a real beginner error (CS1002)
+16:54 What are bin and obj?
+18:36 Practice challenge
+19:38 Recap + next episode
+
+COMMANDS USED IN THIS VIDEO
+dotnet build
+dotnet run
+dotnet build FirstCSharpProgram   (from the parent folder)
+ls   (lists files; in the old Windows Command Prompt, use dir)
+
+PRACTICE CHALLENGE
+Change the program so it prints your name, then build it and run it. The full challenge is in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+dotnet build: https://learn.microsoft.com/dotnet/core/tools/dotnet-build
+dotnet run: https://learn.microsoft.com/dotnet/core/tools/dotnet-run
+Top-level statements: https://learn.microsoft.com/dotnet/csharp/fundamentals/program-structure/top-level-statements
+Console.WriteLine: https://learn.microsoft.com/dotnet/api/system.console.writeline
+Project file properties: https://learn.microsoft.com/dotnet/core/project-sdk/msbuild-props
+Target frameworks: https://learn.microsoft.com/dotnet/standard/frameworks
+Compiler error CS1002: https://learn.microsoft.com/dotnet/csharp/misc/cs1002
+
+NOTES
+• Recorded with .NET SDK 10.0.112 on Ubuntu Linux. The commands are the same on Windows and macOS; only paths and window styles differ.
+• Your build times and version numbers may be different from mine. That's normal.
+
+NEXT VIDEO
+Video 4: Console Input and Output — Make Your Program Interactive
+
+Did you finish the challenge? Share your program's output in the comments.
+
+#csharp #dotnet #programming
