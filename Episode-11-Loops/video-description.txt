@@ -1,0 +1,52 @@
+What if a program should keep showing its menu until the user chooses Exit? Copying the same code again and again would be messy. Instead, C# gives us loops. In this lesson, we learn the for, while, and do-while loops step by step, with animations that follow the real code, and then upgrade our Student Menu app so it repeats until the user chooses Exit. Everything is real: real code, real VS Code recordings, real output, and real bugs found by testing.
+
+This is episode 11 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 10, where we built the Student Menu with a switch. Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• What a loop is, and why it beats copy and paste
+• The for loop: start, check, body, update
+• The while loop: it checks its condition first, so its body may never run
+• The do-while loop: its body runs at least once, and it ends with a semicolon
+• for vs while vs do-while: common uses, not strict rules
+• How an infinite loop happens, and how to prevent it
+• A while loop around a switch: a menu that repeats until Exit
+• A for loop that counts to a number the user chooses, with int.TryParse validation
+• Common mistakes: forgetting the update, a condition that never becomes false, off-by-one, the missing semicolon (error CS1002), and unvalidated input
+
+CHAPTERS
+0:00 Welcome: why loops?
+0:58 What is a loop?
+1:16 The for loop
+2:37 The while loop (and infinite loops)
+3:54 The do-while loop
+4:54 for vs while vs do-while
+5:22 Upgrade the Student Menu (while + for)
+8:09 Testing + common loop mistakes
+9:51 Recap, challenge + next episode
+
+THE APP
+StudentMenu (from episode 10) now runs inside a while loop: 1. Learn about C#, 2. View course information, 3. Practice counting, 4. Check a passing score, 5. Exit. Option 3 counts from 1 to your number with a for loop: 5 prints 1, 2, 3, 4, 5. Text like abc, zero, negative numbers and numbers over 100 are rejected. Option 5 sets running to false, and the loop ends. If the input ends without choosing Exit, the program treats it as Exit, so it can never get stuck in an endless menu.
+
+YOUR CHALLENGE
+Add a new menu option that counts backward from a number to one. Use a for loop, validate the input, and make sure your menu continues working afterward. Details are in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+for, while and do statements: https://learn.microsoft.com/dotnet/csharp/language-reference/statements/iteration-statements
+switch statement: https://learn.microsoft.com/dotnet/csharp/language-reference/statements/selection-statements
+bool: https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool
+int.TryParse: https://learn.microsoft.com/dotnet/api/system.int32.tryparse
+Console.ReadLine: https://learn.microsoft.com/dotnet/api/system.console.readline
+Compiler error CS1002: https://learn.microsoft.com/dotnet/csharp/misc/cs1002
+dotnet new: https://learn.microsoft.com/dotnet/core/tools/dotnet-new
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• Build waits and the typing of already-explained changes are sometimes shown faster, always marked on screen with a speed badge.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+NEXT VIDEO
+Episode 12: C# Number Guessing Game — Build Your First Interactive Game
+
+Share your countdown solution in the comments!
+
+#csharp #dotnet #programming
