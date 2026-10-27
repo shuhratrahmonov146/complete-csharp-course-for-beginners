@@ -1,0 +1,54 @@
+In this lesson, you will install the .NET SDK, check that it works, choose an editor (Visual Studio or VS Code), and run your first C# project with dotnet run. By the end, your own computer will print "Hello, World!" and you will be ready for the next lesson.
+
+This is episode 2 of the Complete C# Course for Beginners on ITHubCoding. It continues from Video 1, "Your First C# Program — From Zero to Hello World".
+
+WHAT YOU WILL LEARN
+• The difference between C#, the .NET SDK, the .NET runtime, and an editor/IDE
+• How to choose and install the right .NET SDK (.NET 10 LTS) on Windows, macOS, or Linux
+• How to verify your installation: dotnet --version, dotnet --list-sdks, dotnet --list-runtimes
+• Visual Studio vs. Visual Studio Code: what each one needs
+• How to run a project with dotnet run, and create one with dotnet new console
+• How to fix 5 common problems: "dotnet" not recognized, wrong folder, no project found, SDK vs. target framework mismatch, editor can't find the SDK
+
+CHAPTERS
+0:00 Welcome back
+1:20 What do we need to write C#? (C#, SDK, runtime, editor)
+5:29 Install .NET (Windows, macOS, Linux)
+11:34 Verify the installation (dotnet --version, --list-sdks, --list-runtimes)
+15:52 Choose an editor: Visual Studio or VS Code
+18:51 Run our first C# project with dotnet run
+22:33 Create a project from the terminal (dotnet new console)
+24:56 Troubleshooting 5 real problems
+30:33 Practice challenge + review
+31:39 Next: Video 3
+
+COMMANDS USED IN THIS VIDEO
+dotnet --version
+dotnet --list-sdks
+dotnet --list-runtimes
+dotnet run
+dotnet new console -n FirstCSharpProgram
+cd FirstCSharpProgram
+dotnet run --project FirstCSharpProgram
+
+OFFICIAL LINKS
+.NET download: https://dotnet.microsoft.com/download
+.NET 10 downloads: https://dotnet.microsoft.com/download/dotnet/10.0
+Install .NET on Windows: https://learn.microsoft.com/dotnet/core/install/windows
+Install .NET on macOS: https://learn.microsoft.com/dotnet/core/install/macos
+Install .NET on Linux: https://learn.microsoft.com/dotnet/core/install/linux
+Visual Studio: https://visualstudio.microsoft.com/
+Visual Studio Code: https://code.visualstudio.com/
+C# in VS Code: https://code.visualstudio.com/docs/languages/csharp
+
+NOTES
+• Versions are as of October 2026: .NET 10 is the current Long Term Support (LTS) release, supported until November 2028.
+• The terminal parts were recorded on Ubuntu Linux. The dotnet commands are the same on Windows and macOS; only paths and window styles differ.
+• Your version numbers may be different from mine. That's normal.
+
+NEXT VIDEO
+Video 3: Understand Your First C# Project — Program.cs, .csproj, Build, and Run
+
+Which operating system are you using? Tell me in the comments. If something didn't work, paste the exact error message.
+
+#csharp #dotnet #programming
