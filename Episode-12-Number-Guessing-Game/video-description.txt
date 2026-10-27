@@ -1,0 +1,52 @@
+Can your C# program think of a secret number and challenge you to find it? In this lesson, we build a real number guessing game from scratch in VS Code. The computer picks a random number from 1 to 100, the player guesses, and the game answers "Too low!", "Too high!" or "Correct!" until the number is found. Everything is real: real code, real VS Code recordings, and real games against a real random number.
+
+This is episode 12 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 11: C# Loops Explained — for, while, and do-while with a Real Project. Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• Random numbers with the Random class, and why random.Next(1, 101) gives 1 to 100 (the second number is never included)
+• Reading the player's guess with Console.ReadLine
+• Validating input with int.TryParse, and rejecting numbers outside 1 to 100
+• Comparing with if, else if and else: too low, too high, correct
+• Repeating the game with a while loop, and ending it with a bool (isCorrect)
+• Counting only valid attempts
+• 5 common mistakes: no loop, the wrong random range, comparing before validating, counting invalid guesses, and a loop that never ends
+
+CHAPTERS
+0:00 Preview: play the game
+0:43 How the game works
+1:06 Create the NumberGuessingGame project
+1:37 Random numbers: random.Next(1, 101)
+2:49 Read the guess: int.TryParse + range check
+3:58 Compare: too low, too high, correct
+4:50 Repeat with a while loop
+6:02 Count the valid attempts
+6:57 Play the finished game
+7:30 5 common mistakes
+8:41 Challenge + next episode
+
+THE GAME
+NumberGuessingGame picks a secret number from 1 to 100. Text like hello is rejected ("Please enter a whole number."), and so are numbers like 0, -5 and 101 ("Please enter a number from 1 to 100."). Invalid entries are not counted as attempts. In the final game of the video, the secret was 72, found in 7 valid attempts.
+
+YOUR CHALLENGE (optional)
+Limit the game to ten valid guesses. If the player can't find the number, show a game over message and reveal the secret number. Details are in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+Random class: https://learn.microsoft.com/dotnet/api/system.random
+Random.Next: https://learn.microsoft.com/dotnet/api/system.random.next
+int.TryParse: https://learn.microsoft.com/dotnet/api/system.int32.tryparse
+while and other loops: https://learn.microsoft.com/dotnet/csharp/language-reference/statements/iteration-statements
+Console.ReadLine: https://learn.microsoft.com/dotnet/api/system.console.readline
+Logical operators (! and ||): https://learn.microsoft.com/dotnet/csharp/language-reference/operators/boolean-logical-operators
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• The games on screen are real: an automated player typed each guess after reading the real hint, like a person would. The secret number was never read from the program.
+• Build waits and some repeated runs are shown faster (2× to 4×), always marked on screen with a speed badge.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+NEXT VIDEO
+Episode 13: C# Methods Explained — Write Reusable Code and Build a Cleaner Program
+
+Tell me in the comments how many guesses you needed!
+
+#csharp #dotnet #programming
