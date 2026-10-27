@@ -1,0 +1,49 @@
+What if your program needs ten quiz scores, or a hundred? Creating a separate variable for each one doesn't scale. In this lesson, you learn C# arrays: one variable that stores many values of the same type. We build a real Quiz Score Tracker in VS Code and use the array to read, update, count, and loop through the scores, then calculate the total, average, highest, and lowest score.
+
+This is episode 14 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 13, where we organized our code with methods. Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• Why five separate variables become a problem, and how an array solves it
+• Declaring an array: int[] scores = { 85, 92, 78, 96, 88 };
+• Creating an array by its length: new int[5] (every element starts at 0)
+• Indexes start at 0: scores[0] is the first element, scores[4] the last of five
+• Updating an element: scores[2] = 90;
+• scores.Length, and why the last index is Length - 1
+• Looping through an array with a for loop that uses scores.Length
+• Total, average (and why we cast to double), highest, and lowest with simple loops
+• The common mistake: IndexOutOfRangeException, from scores[5] or from "less than or equal" in a loop
+
+CHAPTERS
+0:00 Preview: the quiz score tracker
+0:34 Why arrays? (separate variables vs one array)
+1:51 Declare an array: int[] scores = { ... }
+3:03 Indexes start at 0
+3:32 Read and update an element
+4:08 The Length property
+4:35 Loop through an array with for
+5:21 Total, average, highest, lowest
+7:01 Index out of range (mistake and fix)
+8:00 Recap + challenge
+
+THE PROGRAM
+QuizScoreTracker stores five quiz scores in one int array, prints the first, second, and last score, updates scores[2] from 78 to 90, and prints every score with its index. The real output: Total 451, Average 90.2, Highest 96, Lowest 85.
+
+YOUR CHALLENGE
+Count how many scores are 90 or more. With our five scores, the answer is 3. Bonus: add a sixth score and check that your loops still work. Details are in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+Arrays: https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/arrays
+Array.Length: https://learn.microsoft.com/dotnet/api/system.array.length
+IndexOutOfRangeException: https://learn.microsoft.com/dotnet/api/system.indexoutofrangeexception
+for and other loops: https://learn.microsoft.com/dotnet/csharp/language-reference/statements/iteration-statements
+Numeric conversions (the cast to double): https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/numeric-conversions
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• The IndexOutOfRangeException in the video is a real crash of a clearly labelled mistake, which is then removed.
+• Build waits are shown faster (2×), always marked on screen with a speed badge.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+Share your challenge result in the comments!
+
+#csharp #dotnet #programming
