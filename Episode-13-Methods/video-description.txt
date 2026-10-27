@@ -38,6 +38,10 @@ Every version was built and played automatically (72 real games), and the method
 YOUR CHALLENGE
 Write a method called AskToPlayAgain that asks "Play again? (y/n)" and returns true when the player types y. Then use it with a do-while loop, so the player can play another round. Details are in the pinned comment.
 
+SOURCE CODE
+The full code of this episode, explained step by step, with the challenge solution:
+https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners/tree/main/Episode-13-Methods
+
 OFFICIAL DOCUMENTATION
 Methods: https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/methods
 Method parameters: https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/method-parameters
@@ -54,7 +58,7 @@ NOTES
 • The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
 
 NEXT VIDEO
-Episode 14: C# Arrays Explained — Store and Work with Multiple Values
+Episode 14: C# Arrays Explained for Beginners — Store Multiple Values in C#
 
 Share your AskToPlayAgain method in the comments!
 

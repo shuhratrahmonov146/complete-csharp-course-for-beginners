@@ -32,7 +32,7 @@ By Episode 15 you build menu apps, a number guessing game, and programs that wor
 | 11 | [C# Loops Explained — for, while, and do-while with a Real Project](https://www.youtube.com/watch?v=qR1SudKpQjk) | `for`, `while`, `do-while` | LoopBasics, StudentMenu | [Episode-11](Episode-11-Loops/) |
 | 12 | [C# Number Guessing Game — Build Your First Interactive Game](https://www.youtube.com/watch?v=iNadBuLexME) | `Random`, a game loop | NumberGuessingGame | [Episode-12](Episode-12-Number-Guessing-Game/) |
 | 13 | [C# Methods Explained — Build a Cleaner Number Guessing Game](https://www.youtube.com/watch?v=Xoffct2jwLs) | Methods, parameters, return values | MethodBasics, NumberGuessingMethods | [Episode-13](Episode-13-Methods/) |
-| 14 | C# Arrays Explained for Beginners — Store Multiple Values in C# (coming soon) | Arrays, indexes, `Length` | QuizScoreTracker | [Episode-14](Episode-14-Arrays/) |
+| 14 | [C# Arrays Explained for Beginners — Store Multiple Values in C#](https://www.youtube.com/watch?v=rKOcMN6M4uQ) | Arrays, indexes, `Length` | QuizScoreTracker | [Episode-14](Episode-14-Arrays/) |
 | 15 | C# Lists Explained for Beginners — Add, Remove, and Manage Items (coming soon) | `List<string>`, `Add`, `Remove`, `foreach` | ShoppingListManager | [Episode-15](Episode-15-Lists/) |
 
 Click a title to watch the video on YouTube.

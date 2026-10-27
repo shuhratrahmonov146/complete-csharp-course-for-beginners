@@ -1,6 +1,7 @@
 What if your program needs ten quiz scores, or a hundred? Creating a separate variable for each one doesn't scale. In this lesson, you learn C# arrays: one variable that stores many values of the same type. We build a real Quiz Score Tracker in VS Code and use the array to read, update, count, and loop through the scores, then calculate the total, average, highest, and lowest score.
 
-This is episode 14 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 13, where we organized our code with methods. Earlier episodes are in the course playlist.
+This is episode 14 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 13, where we organized our code with methods: https://www.youtube.com/watch?v=Xoffct2jwLs
+Earlier episodes are in the course playlist.
 
 WHAT YOU WILL LEARN
 • Why five separate variables become a problem, and how an array solves it
@@ -30,6 +31,10 @@ QuizScoreTracker stores five quiz scores in one int array, prints the first, sec
 
 YOUR CHALLENGE
 Count how many scores are 90 or more. With our five scores, the answer is 3. Bonus: add a sixth score and check that your loops still work. Details are in the pinned comment.
+
+SOURCE CODE
+The full code of this episode, explained step by step, with the challenge solution:
+https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners/tree/main/Episode-14-Arrays
 
 OFFICIAL DOCUMENTATION
 Arrays: https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/arrays

@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=rKOcMN6M4uQ
+
 [⬅ Episode 13](../Episode-13-Methods/) · [All episodes](../README.md) · [Episode 15 ➡](../Episode-15-Lists/)
 
 What if your program needs ten quiz scores, or a hundred? A separate variable for each one doesn't scale.
