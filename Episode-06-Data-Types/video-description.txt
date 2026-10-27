@@ -1,0 +1,54 @@
+What kind of value can a C# variable hold? In this lesson, we extend the Student Profile App from Episode 5 into a student report and learn the five data types every beginner needs: string, int, double, decimal, and bool. Everything is a real recording in VS Code, with real builds, real output, and real compiler errors.
+
+This is episode 6 of the Complete C# Course for Beginners on ITHubCoding. It continues from Episode 5 (C# Variables Explained). Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• Why data types matter: "22" + 1 prints 221, but 22 + 1 prints 23
+• string: text in double quotes, and why a word without quotes is an error (CS0103)
+• int: whole numbers, their range, and what happens when you put text into an int (CS0029)
+• double: numbers with decimals, stored approximately (0.1 + 0.2 = 0.30000000000000004)
+• decimal: exact values for money, and the m suffix (249.99m)
+• bool: true or false, and why the output shows True with a capital T
+• How to choose a type for what a value means, not for how it looks
+• Common mistakes with real compiler errors: CS0029, CS0664, CS0266
+• A complete student report: values typed by the user, set by the program, and calculated (passed = a score of at least 60)
+
+CHAPTERS
+0:00 Why data types matter (+ preview)
+3:18 string: text and why it needs quotes
+6:00 int: whole numbers (+ a real type error)
+8:38 double: numbers with decimals
+10:34 decimal: exact values for money (the m suffix)
+12:58 bool: true or false
+14:56 Compare the five types
+16:31 Common mistakes (CS0266, CS0664, CS0029)
+18:19 Complete the student report
+21:30 Practice challenge
+22:43 Recap + next: type conversion
+
+THE APP
+StudentProfileApp asks for your name, age, and course, and prints a student report with an average score (double), a course fee (decimal), and a passed result (bool) that the program calculates from the score. Invalid input such as "twenty" for the age doesn't crash it.
+
+YOUR CHALLENGE
+Add a bool isEnrolled and a string subjectName, and show both in the report. The details are in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+Built-in types: https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/built-in-types
+Integral numeric types (int): https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/integral-numeric-types
+Floating-point numeric types (double, decimal): https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types
+bool: https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool
+string: https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/reference-types
+Comparison operators: https://learn.microsoft.com/dotnet/csharp/language-reference/operators/comparison-operators
+int.TryParse: https://learn.microsoft.com/dotnet/api/system.int32.tryparse
+
+NOTES
+• Recorded with .NET SDK 10.0.112 and VS Code on Linux. The code works the same on Windows and macOS.
+• On a computer with different regional settings, numbers may print with a comma (87,5). In your code, always write a dot.
+• The background music is original, made for this video.
+
+NEXT VIDEO
+Video 7: C# Type Conversion and Constants: Convert Values Safely
+
+Share your student report in the comments!
+
+#csharp #dotnet #programming
