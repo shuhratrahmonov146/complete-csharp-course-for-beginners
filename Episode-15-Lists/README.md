@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=kG0GMseC7I8
+
 [⬅ Episode 14](../Episode-14-Arrays/) · [All episodes](../README.md) · Next episode: coming soon
 
 Your shopping list changes every day: you add items, buy them, and cross them off. An array can't do that, because

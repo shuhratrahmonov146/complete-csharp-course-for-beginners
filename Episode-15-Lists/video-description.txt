@@ -1,6 +1,7 @@
 Your shopping list changes every day: you add items, buy them, and cross them off. An array can't do that, because its length is fixed. In this lesson, you learn C# lists: a collection that grows and shrinks. We build a real Shopping List Manager in VS Code that adds, shows, and removes items, and handles an empty list and missing items with clear messages instead of crashing.
 
-This is episode 15 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 14 (arrays). Earlier episodes are in the course playlist.
+This is episode 15 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 14, where we stored many values in one array: https://www.youtube.com/watch?v=rKOcMN6M4uQ
+Earlier episodes are in the course playlist.
 
 WHAT YOU WILL LEARN
 • Arrays vs lists: a fixed length vs a collection that grows and shrinks
@@ -30,6 +31,10 @@ ShoppingListManager is a menu app: 1 Show list, 2 Add an item, 3 Remove an item,
 
 YOUR CHALLENGE
 Add option 4, Check an item, using Contains, and move Exit to option 5. Test it with an item that is on the list and one that is not. Details are in the pinned comment.
+
+SOURCE CODE
+The full code of this episode, explained step by step, with the challenge solution and automated tests:
+https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners/tree/main/Episode-15-Lists
 
 OFFICIAL DOCUMENTATION
 List (the List of T class): https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
