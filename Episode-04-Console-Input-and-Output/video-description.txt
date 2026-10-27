@@ -1,0 +1,50 @@
+In this lesson, we build our first interactive C# program: a console app that asks questions, reads real keyboard input, checks it, and prints a neat profile. Every demo is a real recording in VS Code, with real builds, real output, a real crash, and real fixes.
+
+This is episode 4 of the Complete C# Course for Beginners on ITHubCoding. It continues from Episodes 1–3 (Hello World, .NET setup, project / build / run). You can find them in the course playlist.
+
+WHAT YOU WILL LEARN
+• Console.WriteLine vs. Console.Write, and why Write is perfect for questions
+• Reading input with Console.ReadLine, and why it can return null (warning CS8600)
+• Handling null with ?? ""
+• Storing answers in variables and reusing them with string interpolation $"…{name}…"
+• Why "25" + 1 prints 251, the difference between text and numbers
+• int.Parse vs. int.TryParse: a real crash, and the safe fix
+• Testing real scenarios (empty name, invalid age, empty goal) and fixing what breaks
+
+CHAPTERS
+0:00 Welcome back + preview of the app
+1:10 Output with Console.WriteLine
+2:24 Console.Write vs. Console.WriteLine
+3:57 Read input with Console.ReadLine (and null)
+6:19 Store and reuse answers (variables, interpolation)
+8:00 Add age and validate input (int.Parse vs int.TryParse)
+11:29 Improve the output
+12:44 Test real scenarios and fix problems
+16:37 Viewer challenge
+17:46 Complete program tour + recap + next episode
+
+THE FINAL PROGRAM
+PersonalProfileApp asks for your name, age, and programming goal, validates the age with int.TryParse, handles empty answers with Trim() and defaults, and prints a formatted profile.
+
+YOUR CHALLENGE
+Add one more question: favorite programming language. The details are in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+Console.ReadLine: https://learn.microsoft.com/dotnet/api/system.console.readline
+Console.WriteLine: https://learn.microsoft.com/dotnet/api/system.console.writeline
+Console.Write: https://learn.microsoft.com/dotnet/api/system.console.write
+int.TryParse: https://learn.microsoft.com/dotnet/api/system.int32.tryparse
+String interpolation: https://learn.microsoft.com/dotnet/csharp/language-reference/tokens/interpolated
+The ?? operator: https://learn.microsoft.com/dotnet/csharp/language-reference/operators/null-coalescing-operator
+Nullable warnings (CS8600): https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-messages/nullable-warnings
+
+NOTES
+• Recorded with .NET SDK 10.0.112 and VS Code on Linux. The code and commands are the same on Windows and macOS.
+• To close the input in a terminal: Ctrl+D on Linux/macOS, Ctrl+Z then Enter on Windows.
+
+NEXT VIDEO
+Video 5: C# Variables Explained: Store, Change, and Use Data
+
+Share your program's profile output in the comments!
+
+#csharp #dotnet #programming
