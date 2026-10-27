@@ -1,0 +1,53 @@
+Operators let your program calculate. In this lesson, we try every C# arithmetic operator in a playground, learn assignment operators and operator precedence, and then build a real menu-driven calculator in VS Code. Everything is a real recording: real code, real output, two real crashes, and the fixes.
+
+This is episode 8 of the Complete C# Course for Beginners on ITHubCoding. It continues from Episode 7 (Constants and Type Conversion). Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• The arithmetic operators: + - * / and % (remainder, not percent)
+• Why 17 / 5 is 3.4 with decimal but 3 with int (integer division)
+• Assignment operators: = replaces a value, += and -= update it
+• Operator precedence: 2 + 3 * 4 is 14, and (2 + 3) * 4 is 20
+• Building a calculator: decimal.TryParse for safe input and a switch for the menu
+• Handling invalid input and unknown operations without crashing
+• Division by zero: a real DivideByZeroException, and how to prevent it
+• Testing every operation, and fixing a second bug that testing found
+• Real compiler errors explained: CS0163 (missing break), CS0165 (unassigned variable), CS0029 (= instead of ==)
+
+CHAPTERS
+0:00 Welcome + preview of the calculator
+1:31 Arithmetic operators (+ - * / %)
+4:44 Assignment operators (= += -=)
+6:19 Operator precedence
+8:03 Build the calculator (TryParse + switch)
+11:55 Handle invalid input
+13:04 Division by zero (crash and fix)
+15:33 Test the calculator (and fix a second bug)
+18:37 Practice challenge
+20:02 Recap + next: if and else
+
+THE APP
+CSharpCalculator reads two numbers safely with decimal.TryParse, shows a menu of operations (+ - * / %), calculates the result with a switch, and prints the calculation, for example 12.5 * 4 = 50.0. Text input, unknown operations, and division or remainder by zero are rejected with a helpful message instead of a crash.
+
+YOUR CHALLENGE
+Add an avg operation that calculates the average of the two numbers. Watch out for operator precedence! The details are in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+Arithmetic operators: https://learn.microsoft.com/dotnet/csharp/language-reference/operators/arithmetic-operators
+Assignment operators: https://learn.microsoft.com/dotnet/csharp/language-reference/operators/assignment-operator
+Operators and precedence: https://learn.microsoft.com/dotnet/csharp/language-reference/operators/
+switch statement: https://learn.microsoft.com/dotnet/csharp/language-reference/statements/selection-statements
+Equality operators (==): https://learn.microsoft.com/dotnet/csharp/language-reference/operators/equality-operators
+decimal.TryParse: https://learn.microsoft.com/dotnet/api/system.decimal.tryparse
+DivideByZeroException: https://learn.microsoft.com/dotnet/api/system.dividebyzeroexception
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• Numbers follow your computer's regional settings: with US English settings type 12.5; with German settings type 12,5.
+• The background music is original, made for this video.
+
+NEXT VIDEO
+Video 9: C# if and else: Make Decisions in Your Program
+
+Share your calculator results in the comments!
+
+#csharp #dotnet #programming
