@@ -3,3 +3,14 @@ obj/
 .vs/
 *.user
 TestResults/
+
+# video and audio files never belong here (the videos are on YouTube)
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.srt
+*.vtt
