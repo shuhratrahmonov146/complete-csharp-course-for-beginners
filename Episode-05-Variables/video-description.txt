@@ -1,0 +1,52 @@
+What is a variable in C#? In this lesson, we build a real Student Profile App in VS Code and learn how to store information, change it, and use it again. Everything is a real recording, with real builds, real output, and real compiler errors.
+
+This is episode 5 of the Complete C# Course for Beginners on ITHubCoding. It continues from Episode 4 (Console Input and Output). Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• What a variable is: a name, a type, and a value
+• Declaring and initializing: string studentName = "Alex";
+• string (text) vs. int (whole numbers), and why C# checks types
+• The difference between a variable's name and its value
+• Changing a value (reassignment) without repeating the type
+• Using variables with Console.ReadLine and string interpolation
+• Common mistakes with real compiler errors: CS0128, CS0029, CS0103, CS0841
+• Tracking progress with completedLessons = completedLessons + 1
+• Naming habits: descriptive camelCase names, and the rules the compiler enforces
+
+CHAPTERS
+0:00 Welcome back + preview of the app
+0:57 What is a variable? (name, type, value)
+2:52 Create the Student Profile App
+3:35 Create and display variables
+5:22 Change a variable's value
+7:20 Add input to the project
+9:13 Common mistakes (CS0128, CS0029, CS0103)
+11:40 Track learning progress
+14:37 Variable naming and good habits
+16:42 Practice challenge
+18:06 Complete program + recap + next episode
+
+THE APP
+StudentProfileApp asks for your name, age, and course, stores every answer in a variable, handles empty answers, and shows your profile with a lesson counter that updates.
+
+YOUR CHALLENGE
+Add a favoriteLanguage variable and update completedLessons once more. The details are in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+Declaration statements: https://learn.microsoft.com/dotnet/csharp/language-reference/statements/declarations
+The C# type system: https://learn.microsoft.com/dotnet/csharp/fundamentals/types
+Identifier naming rules and conventions: https://learn.microsoft.com/dotnet/csharp/fundamentals/coding-style/identifier-names
+Assignment operator (=): https://learn.microsoft.com/dotnet/csharp/language-reference/operators/assignment-operator
+String interpolation: https://learn.microsoft.com/dotnet/csharp/language-reference/tokens/interpolated
+Console.ReadLine: https://learn.microsoft.com/dotnet/api/system.console.readline
+
+NOTES
+• Recorded with .NET SDK 10.0.112 and VS Code on Linux. The code works the same on Windows and macOS.
+• The background music is original, made for this video.
+
+NEXT VIDEO
+Video 6: C# Data Types Explained: string, int, double, bool, and More
+
+Share your profile output in the comments!
+
+#csharp #dotnet #programming
