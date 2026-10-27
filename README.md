@@ -1,0 +1,118 @@
+# Complete C# Course for Beginners — Source Code
+
+Source code for the **Complete C# Course for Beginners** playlist on the
+[ITHubCoding YouTube channel](https://www.youtube.com/@ithubcoding).
+
+Every video has its **own folder**. In each folder you find:
+
+- a **README** that explains the project **step by step**, with the real output of the program
+- the **project(s)** exactly as they were at the end of the video
+- a **ChallengeSolution** folder with a tested solution to the video's challenge
+- the full **video description** (`video-description.txt`) with chapters and official links
+
+The course starts very easy (install .NET, print one line) and every episode adds a little more code.
+By Episode 15 you build menu apps, a number guessing game, and programs that work with arrays and lists.
+
+---
+
+## Episodes
+
+| # | Video | What you learn | Project | Folder |
+|---|---|---|---|---|
+| 01 | Your First C# Program — From Zero to Hello World | Your first program | Hello World | Same project as Episode 02 |
+| 02 | Install .NET and Set Up Your C# Development Environment | .NET SDK, `dotnet new`, `dotnet run` | FirstCSharpProgram | [Episode-02](Episode-02-Install-DotNet-and-Setup/) |
+| 03 | Understand Your First C# Project — Program.cs, .csproj, Build, and Run | Project files, build vs. run, compiler errors | FirstCSharpProgram | [Episode-03](Episode-03-Understand-Your-First-Project/) |
+| 04 | C# Console Input and Output — Build Your First Interactive Program | `Console.ReadLine`, `int.TryParse` | PersonalProfileApp | [Episode-04](Episode-04-Console-Input-and-Output/) |
+| 05 | C# Variables Explained — Store, Change, and Use Data | Variables, `string`, `int` | StudentProfileApp | [Episode-05](Episode-05-Variables/) |
+| 06 | C# Data Types Explained — string, int, double, decimal, and bool | The five basic data types | StudentProfileApp (report) | [Episode-06](Episode-06-Data-Types/) |
+| 07 | C# Constants and Type Conversion Explained — Build a Course Fee Calculator | `const`, `decimal.TryParse`, casts, formatting | CourseFeeCalculator | [Episode-07](Episode-07-Constants-and-Type-Conversion/) |
+| 08 | C# Operators Explained — Build a Calculator in VS Code | Arithmetic, assignment, precedence | CSharpCalculator | [Episode-08](Episode-08-Operators/) |
+| 09 | C# if, else if, and else Explained — Build a Grade Checker | `if`, `else if`, `else`, comparisons | GradeChecker | [Episode-09](Episode-09-If-Else/) |
+| 10 | C# switch Statement Explained — Build Your First Menu-Driven Program | `switch`, `case`, `break`, `default` | StudentMenu | [Episode-10](Episode-10-Switch-Statement/) |
+| 11 | C# Loops Explained — for, while, and do-while with a Real Project | `for`, `while`, `do-while` | LoopBasics, StudentMenu | [Episode-11](Episode-11-Loops/) |
+| 12 | C# Number Guessing Game — Build Your First Interactive Game | `Random`, a game loop | NumberGuessingGame | [Episode-12](Episode-12-Number-Guessing-Game/) |
+| 13 | C# Methods Explained — Build a Cleaner Number Guessing Game | Methods, parameters, return values | MethodBasics, NumberGuessingMethods | [Episode-13](Episode-13-Methods/) |
+| 14 | C# Arrays Explained for Beginners — Store Multiple Values in C# | Arrays, indexes, `Length` | QuizScoreTracker | [Episode-14](Episode-14-Arrays/) |
+| 15 | C# Lists Explained for Beginners — Add, Remove, and Manage Items | `List<string>`, `Add`, `Remove`, `foreach` | ShoppingListManager | [Episode-15](Episode-15-Lists/) |
+
+Episode 01 and Episode 02 use the same Hello World project, so its code is in the Episode 02 folder.
+New episodes are added here when they are published.
+
+### Learning path
+
+| Stage | Episodes | You can… |
+|---|---|---|
+| 1. Getting started | 01–03 | install .NET, create a project, build and run it, read a compiler error |
+| 2. Input and data | 04–07 | ask questions, store answers in variables, choose the right data type, convert text to numbers safely |
+| 3. Decisions | 08–10 | calculate, check conditions with `if`/`else`, build a menu with `switch` |
+| 4. Repetition and games | 11–13 | repeat code with loops, build a complete game, split code into methods |
+| 5. Collections | 14–15 | store many values in arrays and lists, and loop through them |
+
+---
+
+## How to run a project
+
+1. Install the **.NET 10 SDK**: https://dotnet.microsoft.com/download
+2. Check it: `dotnet --version` should print a version that starts with `10`.
+3. Clone this repository:
+
+   ```bash
+   git clone https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners.git
+   cd complete-csharp-course-for-beginners
+   ```
+
+4. Go into a project folder and run it, for example:
+
+   ```bash
+   cd Episode-12-Number-Guessing-Game/NumberGuessingGame
+   dotnet run
+   ```
+
+Every project is a separate console app: run `dotnet run` in the folder that contains its `.csproj` file.
+You can use Visual Studio, Visual Studio Code, or any editor.
+
+## Repository structure
+
+```text
+complete-csharp-course-for-beginners/
+├── README.md                          ← you are here
+├── Episode-02-Install-DotNet-and-Setup/
+│   ├── README.md                      ← step-by-step explanation
+│   ├── FirstCSharpProgram/            ← the project from the video
+│   └── video-description.txt          ← the YouTube description
+├── Episode-03-Understand-Your-First-Project/
+│   ├── README.md
+│   ├── FirstCSharpProgram/
+│   ├── ChallengeSolution/             ← the solution to the video's challenge
+│   └── video-description.txt
+├── …
+└── Episode-15-Lists/
+    ├── README.md
+    ├── ShoppingListManager/
+    ├── ShoppingListManager.Tests/     ← automated tests (dotnet test)
+    ├── ChallengeSolution/
+    └── video-description.txt
+```
+
+## Tested
+
+Every project in this repository was built and run with the .NET SDK 10.0.113:
+
+- **37 projects** build with **0 warnings and 0 errors**
+- every example output in the READMEs is real output, copied from an actual run of the program
+- the Episode 15 tests pass (18 of 18): `cd Episode-15-Lists/ShoppingListManager.Tests && dotnet test`
+
+## Learn better
+
+- **Try the challenge yourself first**, then compare with `ChallengeSolution`.
+- **Type the code yourself** instead of copying it. Typing builds memory faster.
+- Got an error? Read the error code (like `CS1002`), the file, and the line number. The READMEs list the common
+  mistakes from each video.
+
+## License
+
+[MIT](LICENSE): you can use this code to learn, practice, and build your own projects.
+
+---
+
+If this helps you, subscribe to [ITHubCoding](https://www.youtube.com/@ithubcoding) for the next episodes.
