@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=Ud9ZVfdpvEM
+
 [⬅ Episode 02](../Episode-02-Install-DotNet-and-Setup/) · [All episodes](../README.md) · [Episode 04 ➡](../Episode-04-Console-Input-and-Output/)
 
 In this video we open the project from Episode 2 and find out what really happens behind the scenes: what

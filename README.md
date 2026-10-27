@@ -19,22 +19,23 @@ By Episode 15 you build menu apps, a number guessing game, and programs that wor
 
 | # | Video | What you learn | Project | Folder |
 |---|---|---|---|---|
-| 01 | Your First C# Program — From Zero to Hello World | Your first program | Hello World | Same project as Episode 02 |
-| 02 | Install .NET and Set Up Your C# Development Environment | .NET SDK, `dotnet new`, `dotnet run` | FirstCSharpProgram | [Episode-02](Episode-02-Install-DotNet-and-Setup/) |
-| 03 | Understand Your First C# Project — Program.cs, .csproj, Build, and Run | Project files, build vs. run, compiler errors | FirstCSharpProgram | [Episode-03](Episode-03-Understand-Your-First-Project/) |
-| 04 | C# Console Input and Output — Build Your First Interactive Program | `Console.ReadLine`, `int.TryParse` | PersonalProfileApp | [Episode-04](Episode-04-Console-Input-and-Output/) |
-| 05 | C# Variables Explained — Store, Change, and Use Data | Variables, `string`, `int` | StudentProfileApp | [Episode-05](Episode-05-Variables/) |
-| 06 | C# Data Types Explained — string, int, double, decimal, and bool | The five basic data types | StudentProfileApp (report) | [Episode-06](Episode-06-Data-Types/) |
-| 07 | C# Constants and Type Conversion Explained — Build a Course Fee Calculator | `const`, `decimal.TryParse`, casts, formatting | CourseFeeCalculator | [Episode-07](Episode-07-Constants-and-Type-Conversion/) |
-| 08 | C# Operators Explained — Build a Calculator in VS Code | Arithmetic, assignment, precedence | CSharpCalculator | [Episode-08](Episode-08-Operators/) |
-| 09 | C# if, else if, and else Explained — Build a Grade Checker | `if`, `else if`, `else`, comparisons | GradeChecker | [Episode-09](Episode-09-If-Else/) |
-| 10 | C# switch Statement Explained — Build Your First Menu-Driven Program | `switch`, `case`, `break`, `default` | StudentMenu | [Episode-10](Episode-10-Switch-Statement/) |
-| 11 | C# Loops Explained — for, while, and do-while with a Real Project | `for`, `while`, `do-while` | LoopBasics, StudentMenu | [Episode-11](Episode-11-Loops/) |
-| 12 | C# Number Guessing Game — Build Your First Interactive Game | `Random`, a game loop | NumberGuessingGame | [Episode-12](Episode-12-Number-Guessing-Game/) |
-| 13 | C# Methods Explained — Build a Cleaner Number Guessing Game | Methods, parameters, return values | MethodBasics, NumberGuessingMethods | [Episode-13](Episode-13-Methods/) |
-| 14 | C# Arrays Explained for Beginners — Store Multiple Values in C# | Arrays, indexes, `Length` | QuizScoreTracker | [Episode-14](Episode-14-Arrays/) |
-| 15 | C# Lists Explained for Beginners — Add, Remove, and Manage Items | `List<string>`, `Add`, `Remove`, `foreach` | ShoppingListManager | [Episode-15](Episode-15-Lists/) |
+| 01 | [Your First C# Program — From Zero to Hello World](https://www.youtube.com/watch?v=0tpqmFBHeFE) | Your first program | Hello World | Same project as Episode 02 |
+| 02 | [Install .NET and Set Up Your C# Development Environment](https://www.youtube.com/watch?v=4bRG20SN5xs) | .NET SDK, `dotnet new`, `dotnet run` | FirstCSharpProgram | [Episode-02](Episode-02-Install-DotNet-and-Setup/) |
+| 03 | [Understand Your First C# Project — Program.cs, .csproj, Build, and Run](https://www.youtube.com/watch?v=Ud9ZVfdpvEM) | Project files, build vs. run, compiler errors | FirstCSharpProgram | [Episode-03](Episode-03-Understand-Your-First-Project/) |
+| 04 | [C# Console Input and Output — Build Your First Interactive Program](https://www.youtube.com/watch?v=xym6N6WPZ2w) | `Console.ReadLine`, `int.TryParse` | PersonalProfileApp | [Episode-04](Episode-04-Console-Input-and-Output/) |
+| 05 | [C# Variables Explained — Store, Change, and Use Data](https://www.youtube.com/watch?v=CYu3VoCCcts) | Variables, `string`, `int` | StudentProfileApp | [Episode-05](Episode-05-Variables/) |
+| 06 | [C# Data Types Explained — string, int, double, decimal, and bool](https://www.youtube.com/watch?v=95VlUn3Ig1o) | The five basic data types | StudentProfileApp (report) | [Episode-06](Episode-06-Data-Types/) |
+| 07 | [C# Constants and Type Conversion Explained — Build a Course Fee Calculator](https://www.youtube.com/watch?v=crsfycsqtCk) | `const`, `decimal.TryParse`, casts, formatting | CourseFeeCalculator | [Episode-07](Episode-07-Constants-and-Type-Conversion/) |
+| 08 | [C# Operators Explained — Build a Calculator in VS Code](https://www.youtube.com/watch?v=QYVVqwmRYYE) | Arithmetic, assignment, precedence | CSharpCalculator | [Episode-08](Episode-08-Operators/) |
+| 09 | [C# if, else if, and else Explained — Build a Grade Checker](https://www.youtube.com/watch?v=U7Yo7kbJXgM) | `if`, `else if`, `else`, comparisons | GradeChecker | [Episode-09](Episode-09-If-Else/) |
+| 10 | [C# switch Statement Explained — Build Your First Menu-Driven Program](https://www.youtube.com/watch?v=LOj0-iwxZ4A) | `switch`, `case`, `break`, `default` | StudentMenu | [Episode-10](Episode-10-Switch-Statement/) |
+| 11 | [C# Loops Explained — for, while, and do-while with a Real Project](https://www.youtube.com/watch?v=qR1SudKpQjk) | `for`, `while`, `do-while` | LoopBasics, StudentMenu | [Episode-11](Episode-11-Loops/) |
+| 12 | [C# Number Guessing Game — Build Your First Interactive Game](https://www.youtube.com/watch?v=iNadBuLexME) | `Random`, a game loop | NumberGuessingGame | [Episode-12](Episode-12-Number-Guessing-Game/) |
+| 13 | [C# Methods Explained — Build a Cleaner Number Guessing Game](https://www.youtube.com/watch?v=Xoffct2jwLs) | Methods, parameters, return values | MethodBasics, NumberGuessingMethods | [Episode-13](Episode-13-Methods/) |
+| 14 | C# Arrays Explained for Beginners — Store Multiple Values in C# (coming soon) | Arrays, indexes, `Length` | QuizScoreTracker | [Episode-14](Episode-14-Arrays/) |
+| 15 | C# Lists Explained for Beginners — Add, Remove, and Manage Items (coming soon) | `List<string>`, `Add`, `Remove`, `foreach` | ShoppingListManager | [Episode-15](Episode-15-Lists/) |
 
+Click a title to watch the video on YouTube.
 Episode 01 and Episode 02 use the same Hello World project, so its code is in the Episode 02 folder.
 New episodes are added here when they are published.
 

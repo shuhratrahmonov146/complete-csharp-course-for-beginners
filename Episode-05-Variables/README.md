@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=CYu3VoCCcts
+
 [⬅ Episode 04](../Episode-04-Console-Input-and-Output/) · [All episodes](../README.md) · [Episode 06 ➡](../Episode-06-Data-Types/)
 
 What is a variable? In this video we build a Student Profile App and learn how to store information, change it,

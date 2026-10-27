@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=xym6N6WPZ2w
+
 [⬅ Episode 03](../Episode-03-Understand-Your-First-Project/) · [All episodes](../README.md) · [Episode 05 ➡](../Episode-05-Variables/)
 
 In this video we build our first interactive program: a console app that asks questions, reads what the user types,

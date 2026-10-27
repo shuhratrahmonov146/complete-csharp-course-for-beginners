@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=QYVVqwmRYYE
+
 [⬅ Episode 07](../Episode-07-Constants-and-Type-Conversion/) · [All episodes](../README.md) · [Episode 09 ➡](../Episode-09-If-Else/)
 
 Operators let your program calculate. In this video we try every arithmetic operator in a playground, learn

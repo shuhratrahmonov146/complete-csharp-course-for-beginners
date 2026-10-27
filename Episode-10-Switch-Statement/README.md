@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=LOj0-iwxZ4A
+
 [⬅ Episode 09](../Episode-09-If-Else/) · [All episodes](../README.md) · [Episode 11 ➡](../Episode-11-Loops/)
 
 How do you let users choose what your program should do? In this video we build a menu-driven console app and learn

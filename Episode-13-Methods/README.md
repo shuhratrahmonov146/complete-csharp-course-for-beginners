@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=Xoffct2jwLs
+
 [⬅ Episode 12](../Episode-12-Number-Guessing-Game/) · [All episodes](../README.md) · [Episode 14 ➡](../Episode-14-Arrays/)
 
 The number guessing game from Episode 12 works, but all of its code lives in one long block. In this video we learn

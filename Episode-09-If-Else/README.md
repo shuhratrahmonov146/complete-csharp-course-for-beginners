@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=U7Yo7kbJXgM
+
 [⬅ Episode 08](../Episode-08-Operators/) · [All episodes](../README.md) · [Episode 10 ➡](../Episode-10-Switch-Statement/)
 
 Programs need to make decisions. In this video you learn `if`, `else`, and `else if`, step by step, and then build a

@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=95VlUn3Ig1o
+
 [⬅ Episode 05](../Episode-05-Variables/) · [All episodes](../README.md) · [Episode 07 ➡](../Episode-07-Constants-and-Type-Conversion/)
 
 What kind of value can a variable hold? In this video we extend the Student Profile App from Episode 5 into a

@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=4bRG20SN5xs
+
 ⬅ Episode 01 (same Hello World project as this episode) · [All episodes](../README.md) · [Episode 03 ➡](../Episode-03-Understand-Your-First-Project/)
 
 In this video you install the .NET SDK, check that it works, choose an editor, and run your first C# project.

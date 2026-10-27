@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=crsfycsqtCk
+
 [⬅ Episode 06](../Episode-06-Data-Types/) · [All episodes](../README.md) · [Episode 08 ➡](../Episode-08-Operators/)
 
 How do you keep a value from ever changing, and how do you turn text from the keyboard into a number safely?

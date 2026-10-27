@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=iNadBuLexME
+
 [⬅ Episode 11](../Episode-11-Loops/) · [All episodes](../README.md) · [Episode 13 ➡](../Episode-13-Methods/)
 
 Can your program think of a secret number and challenge you to find it? In this video we build a number guessing

@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=qR1SudKpQjk
+
 [⬅ Episode 10](../Episode-10-Switch-Statement/) · [All episodes](../README.md) · [Episode 12 ➡](../Episode-12-Number-Guessing-Game/)
 
 What if a program should keep showing its menu until the user chooses Exit? Copying the same code again and again
