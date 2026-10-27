@@ -1,0 +1,54 @@
+Programs need to make decisions. In this lesson, you learn if, else, and else if in C#, step by step, and then build a real Grade Checker in VS Code. It reads a score, checks it with int.TryParse, rejects impossible scores, and prints a grade and a pass or fail result. Everything is a real recording: real code, real output, a real compiler error, and real bugs found by testing.
+
+This is episode 9 of the Complete C# Course for Beginners on ITHubCoding. It continues from Episode 8 (Operators and the calculator). Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• What an if statement is: a condition in parentheses, and a block in braces
+• Why every comparison gives a bool: true or false
+• The six comparison operators: equal, not equal, greater than, less than, and the two "or equal" versions
+• else: exactly one of two blocks runs
+• else if: a chain checked from top to bottom, where the first true condition wins
+• Why the order of the conditions matters
+• Safe input with int.TryParse, and a range check with || (or)
+• Common mistakes: = instead of == (error CS0029), a forgotten boundary, the wrong order, a semicolon after the condition (warning CS0642), and no range check
+• Boundary testing: 100, 90, 89, 80, 60, 59, 0, -1, 101, and text
+
+CHAPTERS
+0:00 Welcome + why programs need decisions
+2:25 What is an if?
+3:56 true and false (comparison operators)
+6:05 else
+7:42 else if (and why the order matters)
+11:02 Build the Grade Checker (int.TryParse + range check)
+16:21 Common mistakes (= vs ==, boundaries, order)
+19:24 Test the boundaries
+22:25 Practice challenge
+23:33 Recap + next: switch
+
+THE APP
+GradeChecker asks for a score from 0 to 100. Text and decimal numbers are rejected by int.TryParse with a helpful message, and scores below 0 or above 100 are rejected by the range check. An else if chain picks the grade: 90 to 100 is an A, 80 to 89 a B, 70 to 79 a C, 60 to 69 a D, and below 60 an F. A second decision prints Pass (60 or more) or Fail.
+These are example grading rules for this lesson. Real schools and countries often use different ones, so change the numbers to match yours.
+
+YOUR CHALLENGE
+For a score of 95 or more, also print a congratulations message. Test it with 95 and 94. The details are in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+if and else (selection statements): https://learn.microsoft.com/dotnet/csharp/language-reference/statements/selection-statements
+Comparison operators: https://learn.microsoft.com/dotnet/csharp/language-reference/operators/comparison-operators
+Equality operators (==, !=): https://learn.microsoft.com/dotnet/csharp/language-reference/operators/equality-operators
+Boolean logical operators (||, &&): https://learn.microsoft.com/dotnet/csharp/language-reference/operators/boolean-logical-operators
+bool: https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool
+int.TryParse: https://learn.microsoft.com/dotnet/api/system.int32.tryparse
+Warning CS0642: https://learn.microsoft.com/dotnet/csharp/misc/cs0642
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• The narration voice is synthetic (text to speech).
+• The background music is original, made for this video.
+
+NEXT VIDEO
+Video 10: C# switch Explained — Build a Menu-Driven Program
+
+Share your challenge solution in the comments!
+
+#csharp #dotnet #programming
