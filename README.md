@@ -11,7 +11,8 @@ Every video has its **own folder**. In each folder you find:
 - the full **video description** (`video-description.txt`) with chapters and official links
 
 The course starts very easy (install .NET, print one line) and every episode adds a little more code.
-By Episode 15 you build menu apps, a number guessing game, and programs that work with arrays and lists.
+By Episode 17 you build menu apps, a number guessing game, programs that work with arrays and lists, and your own
+classes.
 
 ---
 
@@ -34,6 +35,7 @@ By Episode 15 you build menu apps, a number guessing game, and programs that wor
 | 13 | [C# Methods Explained — Build a Cleaner Number Guessing Game](https://www.youtube.com/watch?v=Xoffct2jwLs) | Methods, parameters, return values | MethodBasics, NumberGuessingMethods | [Episode-13](Episode-13-Methods/) |
 | 14 | [C# Arrays Explained for Beginners — Store Multiple Values in C#](https://www.youtube.com/watch?v=rKOcMN6M4uQ) | Arrays, indexes, `Length` | QuizScoreTracker | [Episode-14](Episode-14-Arrays/) |
 | 15 | [C# Lists Explained for Beginners — Add, Remove, and Manage Items](https://www.youtube.com/watch?v=kG0GMseC7I8) | `List<string>`, `Add`, `Remove`, `foreach` | ShoppingListManager | [Episode-15](Episode-15-Lists/) |
+| 17 | C# Classes and Objects Explained for Beginners — Build Your First Object-Oriented Program (coming soon) | `class`, objects, `new`, properties, methods, a first constructor | StudentManagementBasics | [Episode-17](Episode-17-Classes-and-Objects/) |
 
 Click a title to watch the video on YouTube.
 Episode 01 and Episode 02 use the same Hello World project, so its code is in the Episode 02 folder.
@@ -48,6 +50,7 @@ New episodes are added here when they are published.
 | 3. Decisions | 08–10 | calculate, check conditions with `if`/`else`, build a menu with `switch` |
 | 4. Repetition and games | 11–13 | repeat code with loops, build a complete game, split code into methods |
 | 5. Collections | 14–15 | store many values in arrays and lists, and loop through them |
+| 6. Objects | 17 | define your own classes, and create objects with their own data |
 
 ---
 
@@ -99,9 +102,10 @@ complete-csharp-course-for-beginners/
 
 Every project in this repository was built and run with the .NET SDK 10.0.113:
 
-- **37 projects** build with **0 warnings and 0 errors**
+- **40 projects** build with **0 warnings and 0 errors**
 - every example output in the READMEs is real output, copied from an actual run of the program
 - the Episode 15 tests pass (18 of 18): `cd Episode-15-Lists/ShoppingListManager.Tests && dotnet test`
+- the Episode 17 tests pass (9 of 9): `cd Episode-17-Classes-and-Objects/StudentManagementBasics.Tests && dotnet test`
 
 ## Learn better
 

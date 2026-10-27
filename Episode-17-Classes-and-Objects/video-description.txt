@@ -1,0 +1,60 @@
+A student has a name, an age, and a grade. Two students already need six loose variables, and nothing in the code says which values belong together. In this lesson, you learn C# classes and objects: you define your own type, Student, and create objects from it. We build a real program in VS Code, step by step, and every program run and every compiler message you see is real.
+
+This is episode 17 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 16, where we connected keys to values with dictionaries. Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• Why classes: keeping related data (and behavior) together
+• What a class is: a blueprint that describes the data and behavior of its objects
+• Creating an object with new: Student student1 = new Student();
+• The type, the variable, and the reference it holds
+• Properties with get and set, and their default values (an empty string and 0)
+• Several objects from one class, each with its own data
+• Methods inside a class: student1.Introduce() uses student1's own data
+• A first look at constructors: new Student("Aisha", 15)
+• Common mistakes: no object yet (CS0165), calling a method on the class name (CS0120), and a wrong property name (CS1061)
+
+CHAPTERS
+0:00 Preview: one class, three students
+0:40 Why classes? (six loose variables)
+1:33 Define the Student class (properties)
+3:25 Create objects with new
+4:41 Set and read properties (get, set)
+5:46 Multiple objects (each keeps its own data)
+7:04 Methods inside a class: Introduce()
+8:20 Constructors: a first look
+9:32 The complete app: build and run
+10:26 Common mistakes (CS0165, CS0120, CS1061)
+12:00 Recap + challenge
+
+THE PROJECT
+StudentManagementBasics has two files:
+• Student.cs: public class Student with three properties (Name, Age, Grade), a constructor that sets Name and Age, and an Introduce() method
+• Program.cs: creates three Student objects (Aisha, Daniel, and Maria) and lets each one introduce itself
+The final run prints "Hi, I'm Aisha." and "I'm 15 and I'm in grade 10.", and the same for Daniel (16, grade 11) and Maria (14, grade 9). The build has 0 warnings and 0 errors.
+
+YOUR CHALLENGE
+Create a Book class with two properties, Title and Author. Create two Book objects with different values, and print the title and author of each book. Bonus: add a Describe() method that prints them for you. Details are in the pinned comment.
+
+SOURCE CODE
+The full code of this episode, explained step by step, with the challenge solution:
+https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners/tree/main/Episode-17-Classes-and-Objects
+
+OFFICIAL DOCUMENTATION
+Classes (C# fundamentals): https://learn.microsoft.com/dotnet/csharp/fundamentals/types/classes
+Objects: create instances of types: https://learn.microsoft.com/dotnet/csharp/fundamentals/object-oriented/objects
+Properties: https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/properties
+Constructors: https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/constructors
+The new operator: https://learn.microsoft.com/dotnet/csharp/language-reference/operators/new-operator
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• Every typing step, build, and run is real. Build waits are shown faster, always marked on screen with a speed badge.
+• The warning without a starting value for Name (CS8618) was tested off camera, and so was the loose-variables example.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+NEXT VIDEO
+Episode 18: C# Constructors, in depth
+
+Share your Book class in the comments!
+
+#csharp #dotnet #programming
