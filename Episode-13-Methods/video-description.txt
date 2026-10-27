@@ -1,0 +1,61 @@
+Our number guessing game works, but all of its code lives in one long block. In this lesson, we learn C# methods step by step: how to declare a method, how to call it, what parameters and arguments are, and how return values work. Then we refactor the real Number Guessing Game from episode 12 into five small methods, and prove it still works. Everything is real: real code, real VS Code recordings, real output, and real compiler messages.
+
+This is episode 13 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 12, where we built the Number Guessing Game. Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• What a method is: a named block of code that does one job
+• Declaring a method vs calling it (a method that is never called never runs)
+• The parts of a declaration: static, void, the name, the parameter list, and the body
+• Parameters vs arguments: the variable in the declaration vs the value in the call
+• Return values: the return type, the return statement, and storing the result
+• void vs int vs bool
+• Refactoring: improving the structure of code without changing what it does
+• Common mistakes: never calling a method, the wrong argument type (CS1503), a missing return (CS0161), and a mismatched return type (CS0029)
+
+CHAPTERS
+0:00 Welcome: one long block of code
+0:33 What is a method?
+0:51 Declare and call a method
+2:35 Parameters and arguments
+3:24 Return values
+4:15 Refactor the Number Guessing Game
+7:25 Run and test the refactored game
+8:36 Common method mistakes
+9:03 Recap, challenge + next episode
+
+THE PROJECT
+NumberGuessingMethods is episode 12's game, copied into a new project and split into methods:
+• static void ShowWelcome() prints the title and the instructions
+• static int GenerateSecretNumber() returns random.Next(1, 101), a number from 1 to 100
+• static int GetValidGuess() asks until the guess is a whole number from 1 to 100, then returns it
+• static bool CompareGuess(int guess, int secretNumber) prints the hint and returns true only for a correct guess
+• static int PlayGame(int secretNumber) runs the loop and returns the number of attempts
+The top-level code now reads like a story: ShowWelcome, GenerateSecretNumber, PlayGame, then the result. Text, 0, -5 and 101 are rejected, and invalid entries never count as attempts.
+
+TESTED
+Every version was built and played automatically (72 real games), and the methods were tested with known values: CompareGuess(50, 50) is the only call that returns true, GenerateSecretNumber returned only 1 to 100 in 200,000 calls (100 included), and PlayGame counted only valid guesses.
+
+YOUR CHALLENGE
+Write a method called AskToPlayAgain that asks "Play again? (y/n)" and returns true when the player types y. Then use it with a do-while loop, so the player can play another round. Details are in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+Methods: https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/methods
+Method parameters: https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/method-parameters
+Local functions: https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/local-functions
+Top-level statements: https://learn.microsoft.com/dotnet/csharp/fundamentals/program-structure/top-level-statements
+Random.Next: https://learn.microsoft.com/dotnet/api/system.random.next
+int.TryParse: https://learn.microsoft.com/dotnet/api/system.int32.tryparse
+Environment.Exit: https://learn.microsoft.com/dotnet/api/system.environment.exit
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• In a file with top-level statements, methods declared below the code are technically local functions (the compiler warning says so). Everything in this lesson about declaring, calling, parameters and return values works the same for methods inside classes.
+• Build waits and already-explained typing are sometimes shown faster, always marked on screen with a speed badge.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+NEXT VIDEO
+Episode 14: C# Arrays Explained — Store and Work with Multiple Values
+
+Share your AskToPlayAgain method in the comments!
+
+#csharp #dotnet #programming
