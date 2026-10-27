@@ -1,0 +1,49 @@
+How do you let users choose what your program should do? In this lesson, we build a real menu-driven console app in C# and learn the switch statement step by step: switch, case, break, and default. Then we validate a score with int.TryParse and if/else, test every path, and look at three common beginner mistakes. Everything is real: real code, real VS Code recordings, real output.
+
+This is episode 10 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 9: C# if, else if, and else Explained — Build a Grade Checker. Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• What switch does, and when to use it instead of if/else
+• case: one possible exact value (our menu choices are text, so "1", "2", "3", "4")
+• break: ends a case and leaves the switch
+• default: the safety net for every value that no case matches
+• Reading the menu choice with Console.ReadLine
+• Validating a number with int.TryParse, and checking a range with if/else and ||
+• Why switch picks the action while if/else checks conditions and ranges
+• Common mistakes: a missing break (real compiler error CS0163), a missing default, and trusting user input
+
+CHAPTERS
+0:00 Welcome + preview of the menu app
+0:37 if/else vs switch
+1:07 Create the StudentMenu project
+1:38 Build the menu (Console.Write + ReadLine)
+2:29 Understand switch, case, break, default
+4:15 Add real behavior + int.TryParse score check
+6:03 Run and test the real program
+6:45 Common mistakes (break, default, input)
+7:49 Recap, challenge + next episode
+
+THE APP
+StudentMenu shows four options: 1. Learn about C#, 2. View course information, 3. Check a passing score, 4. Exit. A switch runs the matching case. Option 3 asks for a score from 0 to 100: 75 prints "75 is a passing score!", 40 prints "40 is not a passing score.", abc prints "Please enter a whole number.", and 101 prints "Score must be from 0 to 100." Any other menu choice, like 9, goes to default.
+
+YOUR CHALLENGE
+Add a fifth menu option that shows a short C# learning tip. Details are in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+switch statement: https://learn.microsoft.com/dotnet/csharp/language-reference/statements/selection-statements
+int.TryParse: https://learn.microsoft.com/dotnet/api/system.int32.tryparse
+Console.ReadLine: https://learn.microsoft.com/dotnet/api/system.console.readline
+Logical operators (||): https://learn.microsoft.com/dotnet/csharp/language-reference/operators/boolean-logical-operators
+dotnet new: https://learn.microsoft.com/dotnet/core/tools/dotnet-new
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• Long build waits and repeated test runs are shown faster (2.5× to 6×), always marked on screen with a speed badge.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+NEXT VIDEO
+Episode 11: C# Loops Explained — Repeat Tasks with for, while, and do-while
+
+Share your learning tip in the comments!
+
+#csharp #dotnet #programming
