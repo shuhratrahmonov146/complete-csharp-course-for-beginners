@@ -1,0 +1,49 @@
+Your shopping list changes every day: you add items, buy them, and cross them off. An array can't do that, because its length is fixed. In this lesson, you learn C# lists: a collection that grows and shrinks. We build a real Shopping List Manager in VS Code that adds, shows, and removes items, and handles an empty list and missing items with clear messages instead of crashing.
+
+This is episode 15 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 14 (arrays). Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• Arrays vs lists: a fixed length vs a collection that grows and shrinks
+• Creating a list of strings: List of string, items = new List of string(), and the shorter new()
+• Adding items with Add (always at the end)
+• Reading and updating items by index (the first index is 0), and checking an index safely
+• Remove: it returns true when the item was removed and false when it was not found
+• Remove vs RemoveAt (by value vs by index)
+• Count (lists) vs Length (arrays), and Contains (true or false)
+• Looping through every item with foreach
+• Handling an empty list and a missing item with clear messages
+
+CHAPTERS
+0:00 Preview: the shopping list manager
+0:36 Arrays vs lists (fixed length vs grow and shrink)
+1:04 Create a List (a List of string, and new())
+2:32 Add items
+3:20 Read and update by index (safe index check)
+4:41 Remove items (Remove returns true/false, RemoveAt)
+5:55 Count and Contains
+6:49 Loop with foreach
+7:27 Build the shopping list manager (menu, empty list, missing items)
+10:58 Recap + challenge
+
+THE PROGRAM
+ShoppingListManager is a menu app: 1 Show list, 2 Add an item, 3 Remove an item, 4 Exit. It rejects empty names and duplicates, says "Nothing to remove. The list is empty." on an empty list, and "Pizza is not on the list." when you remove an item that isn't there.
+
+YOUR CHALLENGE
+Add option 4, Check an item, using Contains, and move Exit to option 5. Test it with an item that is on the list and one that is not. Details are in the pinned comment.
+
+OFFICIAL DOCUMENTATION
+List (the List of T class): https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+List.Remove: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1.remove
+List.Contains: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1.contains
+foreach and other loops: https://learn.microsoft.com/dotnet/csharp/language-reference/statements/iteration-statements
+ArgumentOutOfRangeException: https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• The typing and every program run are real. Build waits are shown at 2–3× and the live menu runs at 1.5×, always marked on screen with a speed badge.
+• The crashes shown on slides (an index that does not exist, RemoveAt(5), and items[0] on an empty list) are real runs of small experiments made off camera.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+Share your challenge solution in the comments!
+
+#csharp #dotnet #programming
