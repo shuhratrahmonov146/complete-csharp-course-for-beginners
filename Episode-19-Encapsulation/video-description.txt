@@ -1,0 +1,55 @@
+What if one line of code could set your bank balance to -500? With a public setter, it can. In this lesson, you learn encapsulation in C#: keep an object's data private, and change it only through public methods that check the rules. We build a real BankAccount class in VS Code with a private decimal balance, a read-only Balance property, and Deposit and Withdraw methods that reject invalid amounts without ever corrupting the balance.
+
+This is episode 19 of the Complete C# Course for Beginners on ITHubCoding. It continues from the episodes on classes, objects, and constructors. Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• What encapsulation means: data and behavior together, with controlled access
+• public vs private, and why Program.cs cannot touch a private field (real error CS0122)
+• Why a public set is dangerous for data with rules
+• A private field plus a read-only property (get only), and what happens when you try to assign it (real error CS0200)
+• A Deposit method that rejects zero and negative amounts
+• A Withdraw method that also rejects amounts larger than the balance
+• get, set, and private set: who can read and who can write
+• When a public get and set is perfectly fine
+• Common mistakes, and why decimal is the right type for money
+
+CHAPTERS
+0:00 Why a balance needs protection (preview)
+0:36 What is encapsulation?
+1:39 public vs private (real CS0122)
+4:03 A read-only property (get, real CS0200)
+5:26 Deposit with validation
+6:39 Withdraw with two checks
+7:47 Property accessors: get, set, private set
+8:52 Common mistakes + final build and run
+9:54 Recap + challenge (Temperature class)
+
+THE PROGRAM
+EncapsulationBasics deposits 100, -20 and 0, then withdraws 30, 500 and -5. The real output: "Deposited 100. Balance: 100", "Deposit rejected: -20", "Deposit rejected: 0", "Withdrew 30. Balance: 70", "Not enough money for 500.", "Withdrawal rejected: -5", and "Final balance: 70". Every rejected request leaves the balance exactly as it was.
+
+YOUR CHALLENGE
+Create a Temperature class with a private decimal celsius field. Rule: a temperature can never be below -273.15 °C (absolute zero). Add a read-only Celsius property and a SetCelsius method that rejects invalid values. Test 25, -300, and -273.15. Details are in the pinned comment.
+
+SOURCE CODE
+The full code of this episode, explained step by step, with the challenge solution and automated tests:
+https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners/tree/main/Episode-19-Encapsulation
+
+OFFICIAL DOCUMENTATION
+Access modifiers (public, private, ...): https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers
+Properties (get and set): https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/properties
+Restricting accessor accessibility (private set): https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/restricting-accessor-accessibility
+Object-oriented programming in C# (encapsulation): https://learn.microsoft.com/dotnet/csharp/fundamentals/object-oriented/
+Compiler error CS0122: https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-messages/cs0122
+Compiler error CS0200: https://learn.microsoft.com/dotnet/csharp/misc/cs0200
+decimal and other floating-point types: https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• The typing, every build, and every program run are real. Short dotnet run waits are shown at 2×, always marked on screen with a speed badge.
+• The compiler errors CS0122 and CS0200 are real builds of intentional mistakes, marked in the code with a comment and removed again on camera.
+• The "no check" mistakes and the private set version (error CS0272) on the slides are real runs of small experiments made off camera.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+Share your challenge solution in the comments!
+
+#csharp #dotnet #programming

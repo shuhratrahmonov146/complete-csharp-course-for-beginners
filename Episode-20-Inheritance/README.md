@@ -2,7 +2,7 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
-[⬅ Episode 17](../Episode-17-Classes-and-Objects/) · [All episodes](../README.md) · Next episode: coming soon
+[⬅ Episode 19](../Episode-19-Encapsulation/) · [All episodes](../README.md) · Next episode: coming soon
 
 A developer and a manager have different jobs, but both have a name and an employee ID. Writing `Name`,
 `EmployeeId` and `ShowDetails()` into both classes means two copies of the same code, and every change has to be made
@@ -399,4 +399,4 @@ The full YouTube description of this video (chapters, official links, notes) is 
 
 ---
 
-[⬅ Episode 17](../Episode-17-Classes-and-Objects/) · [All episodes](../README.md) · Next episode: coming soon
+[⬅ Episode 19](../Episode-19-Encapsulation/) · [All episodes](../README.md) · Next episode: coming soon

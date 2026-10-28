@@ -12,7 +12,7 @@ Every video has its **own folder**. In each folder you find:
 
 The course starts very easy (install .NET, print one line) and every episode adds a little more code.
 By Episode 20 you build menu apps, a number guessing game, programs that work with arrays and lists, your own
-classes, and classes that reuse code through inheritance.
+classes, classes that protect their data, and classes that reuse code through inheritance.
 
 ---
 
@@ -36,6 +36,7 @@ classes, and classes that reuse code through inheritance.
 | 14 | [C# Arrays Explained for Beginners — Store Multiple Values in C#](https://www.youtube.com/watch?v=rKOcMN6M4uQ) | Arrays, indexes, `Length` | QuizScoreTracker | [Episode-14](Episode-14-Arrays/) |
 | 15 | [C# Lists Explained for Beginners — Add, Remove, and Manage Items](https://www.youtube.com/watch?v=kG0GMseC7I8) | `List<string>`, `Add`, `Remove`, `foreach` | ShoppingListManager | [Episode-15](Episode-15-Lists/) |
 | 17 | C# Classes and Objects Explained for Beginners — Build Your First Object-Oriented Program (coming soon) | `class`, objects, `new`, properties, methods, a first constructor | StudentManagementBasics | [Episode-17](Episode-17-Classes-and-Objects/) |
+| 19 | C# Encapsulation Explained — Public, Private, and Protecting Your Data (coming soon) | `public` vs. `private`, read-only properties, methods that check the rules | EncapsulationBasics | [Episode-19](Episode-19-Encapsulation/) |
 | 20 | C# Inheritance Explained for Beginners — Reuse Code with Base and Derived Classes (coming soon) | Base and derived classes, `:`, `base(...)`, "is a" | InheritanceBasics | [Episode-20](Episode-20-Inheritance/) |
 
 Click a title to watch the video on YouTube.
@@ -51,7 +52,7 @@ New episodes are added here when they are published.
 | 3. Decisions | 08–10 | calculate, check conditions with `if`/`else`, build a menu with `switch` |
 | 4. Repetition and games | 11–13 | repeat code with loops, build a complete game, split code into methods |
 | 5. Collections | 14–15 | store many values in arrays and lists, and loop through them |
-| 6. Objects | 17, 20 | define your own classes, create objects with their own data, and reuse code with inheritance |
+| 6. Objects | 17, 19, 20 | define your own classes, create objects with their own data, protect that data, and reuse code with inheritance |
 
 ---
 
@@ -103,10 +104,11 @@ complete-csharp-course-for-beginners/
 
 Every project in this repository was built and run with the .NET SDK 10.0.113:
 
-- **43 projects** build with **0 warnings and 0 errors**
+- **46 projects** build with **0 warnings and 0 errors**
 - every example output in the READMEs is real output, copied from an actual run of the program
 - the Episode 15 tests pass (18 of 18): `cd Episode-15-Lists/ShoppingListManager.Tests && dotnet test`
 - the Episode 17 tests pass (9 of 9): `cd Episode-17-Classes-and-Objects/StudentManagementBasics.Tests && dotnet test`
+- the Episode 19 tests pass (17 of 17): `cd Episode-19-Encapsulation/EncapsulationBasics.Tests && dotnet test`
 - the Episode 20 tests pass (14 of 14): `cd Episode-20-Inheritance/InheritanceBasics.Tests && dotnet test`
 
 ## Learn better
