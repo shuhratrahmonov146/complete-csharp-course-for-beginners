@@ -1,6 +1,7 @@
 A student has a name, an age, and a grade. Two students already need six loose variables, and nothing in the code says which values belong together. In this lesson, you learn C# classes and objects: you define your own type, Student, and create objects from it. We build a real program in VS Code, step by step, and every program run and every compiler message you see is real.
 
-This is episode 17 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 16, where we connected keys to values with dictionaries. Earlier episodes are in the course playlist.
+This is episode 17 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 16, where we connected keys to values with dictionaries: https://www.youtube.com/watch?v=4j3VCF0LEQk
+Earlier episodes are in the course playlist.
 
 WHAT YOU WILL LEARN
 • Why classes: keeping related data (and behavior) together
@@ -15,16 +16,16 @@ WHAT YOU WILL LEARN
 
 CHAPTERS
 0:00 Preview: one class, three students
-0:40 Why classes? (six loose variables)
-1:33 Define the Student class (properties)
-3:25 Create objects with new
-4:41 Set and read properties (get, set)
-5:46 Multiple objects (each keeps its own data)
+0:39 Why classes? (six loose variables)
+1:30 Define the Student class (properties)
+3:23 Create objects with new
+4:42 Set and read properties (get, set)
+5:45 Multiple objects (each keeps its own data)
 7:04 Methods inside a class: Introduce()
-8:20 Constructors: a first look
-9:32 The complete app: build and run
-10:26 Common mistakes (CS0165, CS0120, CS1061)
-12:00 Recap + challenge
+8:22 Constructors: a first look
+9:35 The complete app: build and run
+10:29 Common mistakes (CS0165, CS0120, CS1061)
+12:04 Recap + challenge
 
 THE PROJECT
 StudentManagementBasics has two files:

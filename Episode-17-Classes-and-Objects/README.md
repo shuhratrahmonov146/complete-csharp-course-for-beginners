@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=iMhTZLJr040
+
 [⬅ Episode 16](../Episode-16-Dictionaries/) · [All episodes](../README.md) · [Episode 19 ➡](../Episode-19-Encapsulation/)
 
 A student has a name, an age, and a grade. Two students already need six loose variables (`name1`, `age1`,
