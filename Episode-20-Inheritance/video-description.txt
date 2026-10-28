@@ -1,0 +1,61 @@
+A developer and a manager have different jobs, but both have a name and an employee ID. Copying the same code into every class makes it hard to maintain. In this lesson, you learn C# inheritance: put the shared code in one base class, and let derived classes reuse it. We build a real Employee, Developer, and Manager app in VS Code, step by step.
+
+This is episode 20 of the Complete C# Course for Beginners on ITHubCoding. It continues from the episodes on classes, constructors, and encapsulation. Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• Why duplicated code is hard to maintain
+• Base classes and derived classes (parent and child classes)
+• The colon: public class Developer : Employee
+• Using inherited members: Name, EmployeeId, and ShowDetails() on a Developer object
+• Why private members stay private, even in a derived class (error CS0122)
+• Adding specialized members: ProgrammingLanguage for developers, TeamSize for managers
+• Constructors and base(...): why the build fails with CS7036, and how base passes values to the base constructor
+• Constructor order: the base class constructor runs first
+• When to inherit: the "is a" test, "has a" relationships, and only one direct base class (error CS1721)
+• Common mistakes: forgetting the colon, and repeating an inherited member (warning CS0108)
+
+CHAPTERS
+0:00 Preview: a developer and a manager
+0:48 The problem: duplicated code
+1:20 Base and derived classes (the colon)
+2:16 Create the Employee base class
+3:09 Reuse inherited members (and private stays private)
+5:00 Add specialized members: Developer and Manager
+6:46 Constructors and base(...), then the complete app
+9:27 When to inherit: is a, one base class
+10:21 Common mistakes (missing colon, repeated member)
+11:47 Recap + challenge
+
+THE PROGRAM
+InheritanceBasics has an Employee base class (Name, EmployeeId, ShowDetails), and two derived classes: Developer (ProgrammingLanguage, WriteCode) and Manager (TeamSize, LeadTeam). Its real output:
+Name: Aisha
+Employee ID: 101
+Aisha codes in C#.
+
+Name: Daniel
+Employee ID: 102
+Daniel leads a team of 5.
+
+YOUR CHALLENGE
+Create a Vehicle base class with Brand, Year, and ShowInfo(). Then two derived classes: Car (adds Doors) and Motorcycle (adds HasSidecar). Give each class a constructor that calls base(...), and create one of each. Details are in the pinned comment.
+
+SOURCE CODE
+The full code of this episode, explained step by step, with the challenge solution and automated tests:
+https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners/tree/main/Episode-20-Inheritance
+
+OFFICIAL DOCUMENTATION
+Inheritance in C#: https://learn.microsoft.com/dotnet/csharp/fundamentals/object-oriented/inheritance
+Tutorial: inheritance in C# and .NET: https://learn.microsoft.com/dotnet/csharp/fundamentals/tutorials/inheritance
+The base keyword: https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/base
+Access modifiers (public, private, protected): https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers
+Using constructors: https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/using-constructors
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• The typing, every build, and every run are real. Build waits and file switching are shown at 1.5–4×, always marked on screen with a speed badge.
+• The two mistakes made in VS Code are intentional and undone right away. The slides about private members, constructor order, two base classes, and the duplicated classes show real builds and runs of small experiments made off camera.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+Share your challenge solution in the comments!
+
+#csharp #dotnet #programming
