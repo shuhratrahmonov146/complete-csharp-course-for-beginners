@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=OkaUMwhafMQ
+
 [⬅ Episode 17](../Episode-17-Classes-and-Objects/) · [All episodes](../README.md) · [Episode 19 ➡](../Episode-19-Encapsulation/)
 
 Creating an object and then setting every property on its own line gets repetitive, and it's easy to forget a line.
