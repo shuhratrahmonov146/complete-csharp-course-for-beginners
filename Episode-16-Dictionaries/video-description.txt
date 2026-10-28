@@ -1,0 +1,56 @@
+You have a class full of students, and you need one student's score, right now. A list makes you search through the items. A dictionary finds it directly: give it a key, like a name, and it gives you the value, the score. In this lesson, you learn C# dictionaries step by step, and we build a real Student Lookup app in VS Code that shows, looks up, adds, and updates scores, and handles unknown students without crashing.
+
+This is episode 16 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 15, where we learned lists: https://www.youtube.com/watch?v=kG0GMseC7I8
+Earlier episodes are in the course playlist.
+
+WHAT YOU WILL LEARN
+• Arrays, lists, and dictionaries: finding a value by its index vs by its key
+• Key-value pairs: a student's name is the key, the score is the value
+• Creating a dictionary: Dictionary of string and int, scores = new()
+• Adding entries with Add, and with square brackets
+• Add vs square brackets: Add throws for a key that already exists, square brackets add or update
+• Reading a value by its key, and the KeyNotFoundException for a missing key
+• The safe way: TryGetValue (true or false, never a crash)
+• Updating a value: the key stays, only the value changes
+• ContainsKey: it checks the keys, not the values
+• Looping through every key-value pair with foreach and KeyValuePair, and Count
+• Four common mistakes, including expecting a dictionary to be sorted
+
+CHAPTERS
+0:00 Preview: the student lookup app
+0:34 What is a dictionary? (keys and values)
+1:11 Create a dictionary (Dictionary of string and int)
+2:25 Add entries (Add vs square brackets)
+3:18 Read values, KeyNotFoundException, and TryGetValue
+4:52 Update values and ContainsKey
+6:13 foreach over key-value pairs, and Count
+7:00 Build the student lookup app
+10:04 Common mistakes (missing key, duplicate Add, keys vs values, order)
+11:10 Recap + challenge
+
+THE PROGRAM
+StudentLookup is a menu app: 1 Show all students, 2 Look up a student, 3 Add or update a score, 4 Exit. It starts with Ali (85), Sara (92), and Tom (78). Looking up Zara prints "No student named Zara." instead of crashing, option 3 adds Mia as a new student and updates Tom's score from 78 to 81, and a score that is not a whole number from 0 to 100 changes nothing.
+
+YOUR CHALLENGE
+Create a dictionary of three products and their prices, then look up one product by name with TryGetValue. Test a product that exists, and one that does not. Details are in the pinned comment.
+
+SOURCE CODE
+The full code of this episode, explained step by step, with the challenge solution and automated tests:
+https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners/tree/main/Episode-16-Dictionaries
+
+OFFICIAL DOCUMENTATION
+Dictionary (the Dictionary of TKey and TValue class): https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+Dictionary.TryGetValue: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetvalue
+Dictionary.ContainsKey: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.containskey
+KeyNotFoundException: https://learn.microsoft.com/dotnet/api/system.collections.generic.keynotfoundexception
+SortedDictionary: https://learn.microsoft.com/dotnet/api/system.collections.generic.sorteddictionary-2
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• The typing and every program run are real, including the KeyNotFoundException crash in chapter 5. Build waits are shown at 2–4× and the live menu runs at 1.5×, always marked on screen with a speed badge.
+• The four mistakes in chapter 9 are real runs (and one real compiler error) of small experiments made off camera.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+Share your challenge solution in the comments!
+
+#csharp #dotnet #programming

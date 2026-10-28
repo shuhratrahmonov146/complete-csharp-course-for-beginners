@@ -4,7 +4,7 @@
 
 ▶ **Watch the video:** https://www.youtube.com/watch?v=kG0GMseC7I8
 
-[⬅ Episode 14](../Episode-14-Arrays/) · [All episodes](../README.md) · [Episode 17 ➡](../Episode-17-Classes-and-Objects/)
+[⬅ Episode 14](../Episode-14-Arrays/) · [All episodes](../README.md) · [Episode 16 ➡](../Episode-16-Dictionaries/)
 
 Your shopping list changes every day: you add items, buy them, and cross them off. An array can't do that, because
 its length is fixed. In this video you learn **lists**: a collection that grows and shrinks. We build a Shopping List
@@ -334,4 +334,4 @@ The full YouTube description of this video (chapters, official links, notes) is 
 
 ---
 
-[⬅ Episode 14](../Episode-14-Arrays/) · [All episodes](../README.md) · [Episode 17 ➡](../Episode-17-Classes-and-Objects/)
+[⬅ Episode 14](../Episode-14-Arrays/) · [All episodes](../README.md) · [Episode 16 ➡](../Episode-16-Dictionaries/)
