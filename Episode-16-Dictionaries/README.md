@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=4j3VCF0LEQk
+
 [⬅ Episode 15](../Episode-15-Lists/) · [All episodes](../README.md) · [Episode 17 ➡](../Episode-17-Classes-and-Objects/)
 
 You have a class full of students, and you need one student's score, right now. A list makes you search through the
