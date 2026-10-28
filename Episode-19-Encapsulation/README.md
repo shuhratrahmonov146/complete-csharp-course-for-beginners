@@ -2,7 +2,7 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
-[⬅ Episode 17](../Episode-17-Classes-and-Objects/) · [All episodes](../README.md) · [Episode 20 ➡](../Episode-20-Inheritance/)
+[⬅ Episode 18](../Episode-18-Constructors/) · [All episodes](../README.md) · [Episode 20 ➡](../Episode-20-Inheritance/)
 
 What if one line of code could set a bank balance to -500? With a public setter, it can, and nothing stops it. In this
 video you learn **encapsulation**: an object keeps its data private, and changes it only through public methods that
@@ -333,4 +333,4 @@ The full YouTube description of this video (chapters, official links, notes) is 
 
 ---
 
-[⬅ Episode 17](../Episode-17-Classes-and-Objects/) · [All episodes](../README.md) · [Episode 20 ➡](../Episode-20-Inheritance/)
+[⬅ Episode 18](../Episode-18-Constructors/) · [All episodes](../README.md) · [Episode 20 ➡](../Episode-20-Inheritance/)

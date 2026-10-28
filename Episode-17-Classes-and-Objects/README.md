@@ -4,7 +4,7 @@
 
 ▶ **Watch the video:** https://www.youtube.com/watch?v=iMhTZLJr040
 
-[⬅ Episode 16](../Episode-16-Dictionaries/) · [All episodes](../README.md) · [Episode 19 ➡](../Episode-19-Encapsulation/)
+[⬅ Episode 16](../Episode-16-Dictionaries/) · [All episodes](../README.md) · [Episode 18 ➡](../Episode-18-Constructors/)
 
 A student has a name, an age, and a grade. Two students already need six loose variables (`name1`, `age1`,
 `grade1`, `name2`, ...), and nothing in the code says which values belong together. In this video you learn
@@ -213,4 +213,4 @@ The full YouTube description of this video (chapters, official links, notes) is 
 
 ---
 
-[⬅ Episode 16](../Episode-16-Dictionaries/) · [All episodes](../README.md) · [Episode 19 ➡](../Episode-19-Encapsulation/)
+[⬅ Episode 16](../Episode-16-Dictionaries/) · [All episodes](../README.md) · [Episode 18 ➡](../Episode-18-Constructors/)

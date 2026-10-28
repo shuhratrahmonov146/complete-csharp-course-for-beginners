@@ -1,0 +1,55 @@
+Creating an object and then setting every property on its own line gets repetitive, and it's easy to forget a line. A constructor fixes that: it initializes an object the moment it's created. In this lesson, you build a Student class in VS Code, write constructors with and without parameters, create several objects in one line each, and see real compiler errors for the most common constructor mistakes.
+
+This is episode 18 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 17, C# Classes and Objects: https://www.youtube.com/watch?v=iMhTZLJr040
+The full course is in the playlist.
+
+WHAT YOU WILL LEARN
+• Why setting every property by hand is repetitive and error-prone
+• Constructor syntax: the same name as the class, and no return type (not even void)
+• When a constructor runs: every time new creates an object
+• Constructor parameters: how new Student("Ali", 16) passes arguments, in order
+• Creating several objects with the same constructor and different values
+• The hidden parameterless constructor, and why new Student() stops compiling (CS7036) once you write your own constructor
+• Constructor overloading: several constructors with different parameter lists
+• Common mistakes with real compiler errors: void before the name (CS0542), arguments in the wrong order (CS1503), a misspelled name (CS1520), a wrong number of arguments (CS1729)
+
+CHAPTERS
+0:00 Preview: a fully initialized object in one line
+0:27 Recap: classes and objects
+1:06 The problem: repetitive property assignments
+2:52 Constructor syntax (same name, no return type)
+3:33 A constructor with parameters
+4:45 Multiple objects, one constructor
+5:09 Parameterless constructors (the hidden default, CS7036)
+6:34 Constructor overloading
+7:35 Common mistakes (real compiler errors)
+9:26 Recap + coding challenge
+
+THE PROGRAM
+ConstructorBasics has a Student class with Name, Age and Grade and three constructors: Student(), Student(string name, int age) and Student(string name, int age, int grade). Program.cs creates three students, each with a different constructor, and each one introduces itself: "Hi, I'm Ali. I'm 16 and I'm in grade 11."
+
+YOUR CHALLENGE
+Create a Book class with Title and Author properties and a constructor that takes a title and an author. Create two books with different values and display their details. Details are in the pinned comment.
+
+SOURCE CODE
+The full code of this episode, explained step by step, with the challenge solution and automated tests:
+https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners/tree/main/Episode-18-Constructors
+
+OFFICIAL DOCUMENTATION
+Constructors (C# programming guide): https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/constructors
+Instance constructors: https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors
+Using constructors: https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/using-constructors
+Constructor errors, including CS7036: https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-messages/constructor-errors
+Compiler error CS0542: https://learn.microsoft.com/dotnet/csharp/misc/cs0542
+Compiler error CS1503: https://learn.microsoft.com/dotnet/csharp/misc/cs1503
+Compiler error CS1729: https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-messages/cs1729
+
+NOTES
+• Recorded with .NET SDK 10.0.113 and VS Code on Linux. The code works the same on Windows and macOS.
+• The typing, every build and every program run are real. Build and run waits are shown faster, always marked on screen with a speed badge.
+• The errors CS1520 and CS1729, the forgotten line, and the constructor that prints a message are real runs of small experiments made off camera and shown on slides.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+Share your challenge solution in the comments!
+
+#csharp #dotnet #programming
