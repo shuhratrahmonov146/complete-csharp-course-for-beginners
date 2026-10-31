@@ -38,7 +38,7 @@ classes, classes that protect their data, and classes that reuse code through in
 | 16 | [C# Dictionaries Explained for Beginners — Key-Value Pairs](https://www.youtube.com/watch?v=4j3VCF0LEQk) | `Dictionary<string, int>`, `TryGetValue`, `ContainsKey`, `foreach` | StudentLookup | [Episode-16](Episode-16-Dictionaries/) |
 | 17 | [C# Classes and Objects Explained for Beginners — Build Your First Object-Oriented Program](https://www.youtube.com/watch?v=iMhTZLJr040) | `class`, objects, `new`, properties, methods, a first constructor | StudentManagementBasics | [Episode-17](Episode-17-Classes-and-Objects/) |
 | 18 | [C# Constructors Explained for Beginners — Initialize Objects the Right Way](https://www.youtube.com/watch?v=OkaUMwhafMQ) | Constructors, parameters, overloading, the hidden constructor without parameters | ConstructorBasics | [Episode-18](Episode-18-Constructors/) |
-| 19 | C# Encapsulation Explained — Public, Private, and Protecting Your Data (coming soon) | `public` vs. `private`, read-only properties, methods that check the rules | EncapsulationBasics | [Episode-19](Episode-19-Encapsulation/) |
+| 19 | [C# Encapsulation Explained — Public, Private, and Protecting Your Data](https://www.youtube.com/watch?v=zrbfJvXthkk) | `public` vs. `private`, read-only properties, methods that check the rules | EncapsulationBasics | [Episode-19](Episode-19-Encapsulation/) |
 | 20 | C# Inheritance Explained for Beginners — Reuse Code with Base and Derived Classes (coming soon) | Base and derived classes, `:`, `base(...)`, "is a" | InheritanceBasics | [Episode-20](Episode-20-Inheritance/) |
 
 Click a title to watch the video on YouTube.

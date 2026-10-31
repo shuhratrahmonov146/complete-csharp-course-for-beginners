@@ -2,6 +2,8 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
+▶ **Watch the video:** https://www.youtube.com/watch?v=zrbfJvXthkk
+
 [⬅ Episode 18](../Episode-18-Constructors/) · [All episodes](../README.md) · [Episode 20 ➡](../Episode-20-Inheritance/)
 
 What if one line of code could set a bank balance to -500? With a public setter, it can, and nothing stops it. In this
