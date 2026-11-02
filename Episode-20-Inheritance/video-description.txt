@@ -1,6 +1,7 @@
 A developer and a manager have different jobs, but both have a name and an employee ID. Copying the same code into every class makes it hard to maintain. In this lesson, you learn C# inheritance: put the shared code in one base class, and let derived classes reuse it. We build a real Employee, Developer, and Manager app in VS Code, step by step.
 
-This is episode 20 of the Complete C# Course for Beginners on ITHubCoding. It continues from the episodes on classes, constructors, and encapsulation. Earlier episodes are in the course playlist.
+This is episode 20 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 19, C# Encapsulation: https://www.youtube.com/watch?v=zrbfJvXthkk
+The full course is in the playlist.
 
 WHAT YOU WILL LEARN
 • Why duplicated code is hard to maintain
@@ -16,14 +17,14 @@ WHAT YOU WILL LEARN
 
 CHAPTERS
 0:00 Preview: a developer and a manager
-0:48 The problem: duplicated code
-1:20 Base and derived classes (the colon)
+0:49 The problem: duplicated code
+1:21 Base and derived classes (the colon)
 2:16 Create the Employee base class
-3:09 Reuse inherited members (and private stays private)
-5:00 Add specialized members: Developer and Manager
-6:46 Constructors and base(...), then the complete app
-9:27 When to inherit: is a, one base class
-10:21 Common mistakes (missing colon, repeated member)
+3:10 Reuse inherited members (and private stays private)
+5:01 Add specialized members: Developer and Manager
+6:47 Constructors and base(...), then the complete app
+9:25 When to inherit: is a, one base class
+10:20 Common mistakes (missing colon, repeated member)
 11:47 Recap + challenge
 
 THE PROGRAM

@@ -1,0 +1,61 @@
+Some employees get a fixed monthly salary. Others are paid for every hour they work. How can one line of code calculate both salaries correctly? In this lesson, you learn C# polymorphism: one method call, different behaviors. We build a real Employee Payroll System in VS Code, step by step, with virtual, override, and one List of Employee.
+
+This is episode 21 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 20, C# Inheritance: https://youtu.be/AAy9uaDp1Pc
+The full course is in the playlist.
+
+WHAT YOU WILL LEARN
+• What polymorphism means: poly = many, morph = forms
+• Why a separate list and a separate loop for every employee type is hard to maintain
+• A base class with a virtual method: public virtual decimal CalculateSalary()
+• Overriding it in derived classes: public override decimal CalculateSalary()
+• Classes in a Models folder, with a namespace and a using directive
+• One List of Employee that holds full-time and part-time employees
+• Runtime polymorphism: the same call runs the version of the real object
+• A base-class variable that refers to a derived object
+• Common mistakes: forgetting virtual (error CS0506), forgetting override (warning CS0114), override without a matching method (error CS0115), overriding vs overloading, and the wrong list type (error CS1503)
+
+CHAPTERS
+0:00 Preview: one call, two salaries
+0:38 What is polymorphism? (many forms)
+1:37 The payroll problem without polymorphism
+2:36 The Employee base class and virtual
+4:26 override: FullTimeEmployee and PartTimeEmployee
+6:14 One List of Employee, one loop
+8:02 What happens at runtime
+9:18 The complete payroll (and the total)
+10:31 Common mistakes (virtual, override, overloading)
+13:44 Recap + challenge
+
+THE PROGRAM
+EmployeePayrollSystem has an Employee base class (EmployeeId, Name, a virtual CalculateSalary, and ShowInfo) and two derived classes: FullTimeEmployee (the monthly salary) and PartTimeEmployee (hours worked × hourly rate). Its real output:
+Ali (ID 101)
+Salary: 3000
+
+Sara (ID 102)
+Salary: 1200
+
+Total payroll: 4200
+
+YOUR CHALLENGE
+Create a base class Shape with a virtual CalculateArea() method. Then create Circle and Rectangle, and give each one its own CalculateArea(). Put both objects into a List of Shape, and call CalculateArea() in a foreach loop. Details are in the pinned comment.
+
+SOURCE CODE
+The full code of this episode, explained step by step, with the challenge solution and automated tests:
+https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners/tree/main/Episode-21-Polymorphism
+
+OFFICIAL DOCUMENTATION
+Polymorphism in C#: https://learn.microsoft.com/dotnet/csharp/fundamentals/object-oriented/polymorphism
+The virtual keyword: https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/virtual
+The override keyword: https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/override
+Knowing when to use override and new: https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/knowing-when-to-use-override-and-new-keywords
+Namespaces: https://learn.microsoft.com/dotnet/csharp/fundamentals/types/namespaces
+
+NOTES
+• Recorded with .NET SDK 10.0.114 and VS Code on Linux. The code works the same on Windows and macOS.
+• The typing, every build, and every run are real. Build waits and file switching are shown at 1.5–4×, always marked on screen with a speed badge.
+• The two mistakes made in VS Code are intentional and undone right away. The slides about separate lists, a base-class variable, override without a matching method, overloading, and the wrong list type show real builds and runs of small experiments made off camera. The Intern class mentioned in chapter 8 was also tested off camera.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+Share your challenge solution in the comments!
+
+#csharp #dotnet #programming

@@ -2,7 +2,9 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
-[⬅ Episode 19](../Episode-19-Encapsulation/) · [All episodes](../README.md) · Next episode: coming soon
+▶ **Watch the video:** https://www.youtube.com/watch?v=AAy9uaDp1Pc
+
+[⬅ Episode 19](../Episode-19-Encapsulation/) · [All episodes](../README.md) · [Episode 21 ➡](../Episode-21-Polymorphism/)
 
 A developer and a manager have different jobs, but both have a name and an employee ID. Writing `Name`,
 `EmployeeId` and `ShowDetails()` into both classes means two copies of the same code, and every change has to be made
@@ -399,4 +401,4 @@ The full YouTube description of this video (chapters, official links, notes) is 
 
 ---
 
-[⬅ Episode 19](../Episode-19-Encapsulation/) · [All episodes](../README.md) · Next episode: coming soon
+[⬅ Episode 19](../Episode-19-Encapsulation/) · [All episodes](../README.md) · [Episode 21 ➡](../Episode-21-Polymorphism/)
