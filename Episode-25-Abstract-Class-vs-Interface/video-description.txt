@@ -1,0 +1,74 @@
+Abstract class or interface? Both describe what other classes must do, so beginners often ask: what is the actual difference, and when should I use each one? In this lesson, we answer that question by building a real e-commerce payment system in VS Code: an abstract PaymentMethod base class for what every payment IS, and two interfaces, IRefundable and IReceiptSender, for what a payment CAN DO.
+
+This is episode 25 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 23 (abstract classes) and episode 24 (interfaces). The full course is in the playlist.
+
+WHAT YOU WILL LEARN
+• What abstract classes and interfaces have in common
+• Abstract class: shared data, a constructor, implemented and abstract methods
+• Interface: a contract, or a capability (and why default interface methods are an advanced extra)
+• The key difference: shared state versus capability ("is a" versus "can do")
+• One base class, many interfaces: CreditCardPayment : PaymentMethod, IRefundable, IReceiptSender (and why two base classes give CS1721)
+• Implementing interface members (CS0535 when one is missing)
+• Using a capability safely with the is keyword (CS1061 without it)
+• A side-by-side comparison and a simple decision guide
+• Common mistakes: CS0144, CS1722, CS0534
+
+CHAPTERS
+0:00 Abstract class vs interface: the short answer
+1:45 What they have in common
+2:10 What is an abstract class?
+3:12 What is an interface?
+4:20 Shared state vs capability (one base, many interfaces)
+5:54 Build the PaymentMethod base class
+8:57 Add IRefundable and IReceiptSender
+11:04 The complete app (and the is keyword)
+12:49 Side by side + how to choose
+13:57 Common mistakes
+15:43 Recap + coding challenge
+
+THE PROGRAM
+EcommercePaymentSystem (a local simulation: no real payments, no card data): an abstract PaymentMethod (PaymentId, Amount, a protected constructor that rejects amounts of zero or less, DisplayPaymentInformation, abstract ProcessPayment) and two interfaces, IRefundable and IReceiptSender. CreditCardPayment implements both; in our example store, PayPalPayment only sends receipts. Real output:
+Payment ID: P-1001
+Amount: 120.50 USD
+Charging card ending in 4242.
+Receipt emailed for P-1001.
+Refunded 20.00 USD to the card.
+
+Payment ID: P-1002
+Amount: 45.99 USD
+Paying via PayPal: ali@example.com
+Receipt sent to ali@example.com.
+Refunds are not supported.
+
+YOUR CHALLENGE
+Build a simple document management system.
+Create an abstract class called Document with a Title property and an abstract method called Open().
+Then create two interfaces:
+- IPrintable with a Print() method.
+- IShareable with a Share() method.
+Create a PDFDocument class that inherits from Document and implements both interfaces.
+Create another document type that supports printing but does not support sharing.
+Explain why the abstract class and interfaces are useful for this design.
+Try to solve it on your own first!
+
+SOURCE CODE
+The full code of this episode, with the challenge solution and automated tests:
+https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners/tree/main/Episode-25-Abstract-Class-vs-Interface
+
+OFFICIAL DOCUMENTATION
+abstract (C# reference): https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/abstract
+Abstract and sealed classes and class members: https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members
+Interfaces: define behavior for multiple types: https://learn.microsoft.com/dotnet/csharp/fundamentals/types/interfaces
+interface (C# reference): https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/interface
+The is operator (type testing): https://learn.microsoft.com/dotnet/csharp/language-reference/operators/type-testing-and-cast
+Default interface methods (advanced): https://learn.microsoft.com/dotnet/csharp/advanced-topics/interface-implementation/default-interface-methods-versions
+
+NOTES
+• Recorded with .NET SDK 10.0.114 and VS Code on Linux. The code works the same on Windows and macOS.
+• The typing, every build, and every run in VS Code are real. Build waits and file switching are shown at 1.5–4×, always marked on screen with a speed badge.
+• The mistakes made in VS Code are intentional and undone right away. The slides marked "tested off camera" show real builds and runs of small experiments (two base classes, interface fields and constructors, a default interface method, an Order class, a negative amount, missing members).
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+Share your challenge solution in the comments!
+
+#csharp #dotnet #programming

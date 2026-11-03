@@ -2,7 +2,7 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
-[⬅ Episode 20](../Episode-20-Inheritance/) · [All episodes](../README.md) · Next episode: coming soon
+[⬅ Episode 20](../Episode-20-Inheritance/) · [All episodes](../README.md) · [Episode 25 ➡](../Episode-25-Abstract-Class-vs-Interface/)
 
 Some employees get a fixed monthly salary. Others are paid for every hour they work. Both are employees, and both
 need a salary, but the calculation is different. In this video you learn **polymorphism**: one method call,
@@ -317,4 +317,4 @@ The full YouTube description of this video (chapters, official links, notes) is 
 
 ---
 
-[⬅ Episode 20](../Episode-20-Inheritance/) · [All episodes](../README.md) · Next episode: coming soon
+[⬅ Episode 20](../Episode-20-Inheritance/) · [All episodes](../README.md) · [Episode 25 ➡](../Episode-25-Abstract-Class-vs-Interface/)

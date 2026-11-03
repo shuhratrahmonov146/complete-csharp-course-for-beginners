@@ -11,9 +11,9 @@ Every video has its **own folder**. In each folder you find:
 - the full **video description** (`video-description.txt`) with chapters and official links
 
 The course starts very easy (install .NET, print one line) and every episode adds a little more code.
-By Episode 21 you build menu apps, a number guessing game, programs that work with arrays, lists, and dictionaries, your own
-classes, classes that protect their data, classes that reuse code through inheritance, and one method call that behaves
-differently for each object (polymorphism).
+By Episode 25 you build menu apps, a number guessing game, programs that work with arrays, lists, and dictionaries, your own
+classes, classes that protect their data, classes that reuse code through inheritance, one method call that behaves
+differently for each object (polymorphism), and a payment system that combines an abstract class with interfaces.
 
 ---
 
@@ -42,6 +42,7 @@ differently for each object (polymorphism).
 | 19 | [C# Encapsulation Explained — Public, Private, and Protecting Your Data](https://www.youtube.com/watch?v=zrbfJvXthkk) | `public` vs. `private`, read-only properties, methods that check the rules | EncapsulationBasics | [Episode-19](Episode-19-Encapsulation/) |
 | 20 | [C# Inheritance Explained for Beginners — Reuse Code with Base and Derived Classes](https://www.youtube.com/watch?v=AAy9uaDp1Pc) | Base and derived classes, `:`, `base(...)`, "is a" | InheritanceBasics | [Episode-20](Episode-20-Inheritance/) |
 | 21 | C# Polymorphism Explained for Beginners — One Method, Different Behaviors (coming soon) | `virtual`, `override`, one `List<Employee>`, runtime polymorphism | EmployeePayrollSystem | [Episode-21](Episode-21-Polymorphism/) |
+| 25 | C# Abstract Classes vs Interfaces Explained — When Should You Use Each? (coming soon) | `abstract class` vs `interface`, one base class and two interfaces, `is` | EcommercePaymentSystem | [Episode-25](Episode-25-Abstract-Class-vs-Interface/) |
 
 Click a title to watch the video on YouTube.
 Episode 01 and Episode 02 use the same Hello World project, so its code is in the Episode 02 folder.
@@ -57,6 +58,7 @@ New episodes are added here when they are published.
 | 4. Repetition and games | 11–13 | repeat code with loops, build a complete game, split code into methods |
 | 5. Collections | 14–16 | store many values in arrays and lists, find values by key in a dictionary, and loop through them |
 | 6. Objects | 17–21 | define your own classes, create objects with their own data, initialize them with constructors, protect that data, reuse code with inheritance, and let each object run its own version of a method |
+| 7. Abstraction | 25 | choose between an abstract class (what an object is) and interfaces (what an object can do) |
 
 ---
 
@@ -108,7 +110,7 @@ complete-csharp-course-for-beginners/
 
 Every project in this repository was built and run with the .NET SDK 10.0.114:
 
-- **55 projects** build with **0 warnings and 0 errors**
+- **58 projects** build with **0 warnings and 0 errors**
 - every example output in the READMEs is real output, copied from an actual run of the program
 - the Episode 15 tests pass (18 of 18): `cd Episode-15-Lists/ShoppingListManager.Tests && dotnet test`
 - the Episode 16 tests pass (25 of 25): `cd Episode-16-Dictionaries/StudentLookup.Tests && dotnet test`
@@ -117,6 +119,7 @@ Every project in this repository was built and run with the .NET SDK 10.0.114:
 - the Episode 19 tests pass (17 of 17): `cd Episode-19-Encapsulation/EncapsulationBasics.Tests && dotnet test`
 - the Episode 20 tests pass (14 of 14): `cd Episode-20-Inheritance/InheritanceBasics.Tests && dotnet test`
 - the Episode 21 tests pass (18 of 18): `cd Episode-21-Polymorphism/EmployeePayrollSystem.Tests && dotnet test`
+- the Episode 25 tests pass (21 of 21): `cd Episode-25-Abstract-Class-vs-Interface/EcommercePaymentSystem.Tests && dotnet test`
 
 ## Learn better
 
