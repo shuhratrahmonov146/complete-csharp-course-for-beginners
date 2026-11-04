@@ -1,0 +1,64 @@
+Credit cards and PayPal are both payment methods, but each one processes a payment in its own way. How do you make every payment type follow the same structure, and make sure no class forgets its own ProcessPayment method? In this lesson, you learn C# abstract classes and abstract methods, step by step, by building a real (simulated) payment processing system in VS Code.
+
+This is episode 23 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 22, Method Overloading vs Method Overriding, and builds on episode 21, C# Polymorphism: https://www.youtube.com/watch?v=Bkaq-nusiJM
+The full course is in the playlist.
+
+WHAT YOU WILL LEARN
+• Why an ordinary base class with an empty method is not enough
+• What an abstract class is: a general blueprint you cannot create objects from
+• What an abstract method is: no body, and every non-abstract derived class must implement it
+• Why new PaymentMethod(100m) fails with error CS0144
+• How CreditCardPayment and PayPalPayment implement ProcessPayment() with override (error CS0534 if you forget)
+• Abstract variable type, concrete object: PaymentMethod payment = new CreditCardPayment(100m);
+• Shared code in an abstract class: properties, a protected constructor, and ordinary methods
+• Polymorphism with a List of PaymentMethod and a foreach loop
+• Abstract class vs ordinary class, and when to use an abstract class
+• Common mistakes: CS0144, CS0500, CS0534, and the missing override keyword (warning CS0114)
+
+CHAPTERS
+0:00 Preview: two payment methods, one structure
+0:55 The problem: an ordinary base class
+1:49 What is an abstract class?
+2:58 Create the abstract PaymentMethod class
+4:08 Abstract methods
+4:58 CreditCardPayment: CS0534, then override
+6:10 Abstract type, concrete object (CS0144)
+7:49 PayPalPayment and shared code
+8:51 Polymorphism with a List of PaymentMethod
+10:20 Abstract class vs ordinary class
+10:53 Common mistakes (CS0500, missing override)
+12:44 Full run, recap + challenge
+
+THE PROGRAM
+PaymentProcessingSystem has an abstract PaymentMethod class (PaymentAmount, a protected constructor, DisplayPaymentInformation, and the abstract ProcessPayment), and two derived classes in a Models folder: CreditCardPayment and PayPalPayment. It is a local simulation: no real payments, no card data. Its real output:
+Amount: 120.50 USD
+Checking the credit card...
+Credit card payment approved.
+
+Amount: 45.99 USD
+Connecting to PayPal...
+PayPal payment completed.
+
+YOUR CHALLENGE
+Create an abstract class called Shape. Add an abstract method named CalculateArea(). Then create two derived classes: Circle and Rectangle. Implement CalculateArea() differently in each class. Finally, create a List of Shape and calculate the area of every shape using a foreach loop. Details are in the pinned comment.
+
+SOURCE CODE
+The full code of this episode, explained step by step, with the challenge solution and automated tests:
+https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners/tree/main/Episode-23-Abstract-Classes
+
+OFFICIAL DOCUMENTATION
+abstract (C# reference): https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/abstract
+Abstract and sealed classes and class members: https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members
+override (C# reference): https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/override
+Polymorphism: https://learn.microsoft.com/dotnet/csharp/fundamentals/object-oriented/polymorphism
+Namespaces: https://learn.microsoft.com/dotnet/csharp/fundamentals/types/namespaces
+
+NOTES
+• Recorded with .NET SDK 10.0.114 and VS Code on Linux. The code works the same on Windows and macOS.
+• The typing, every build, and every run are real. Build waits and file switching are shown at 1.5–4×, always marked on screen with a speed badge.
+• The compiler errors in VS Code are real. The mistakes are made on purpose and undone right away. The "ordinary base class" slide shows a real build and run of a small experiment made off camera.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+Share your challenge solution in the comments!
+
+#csharp #dotnet #programming

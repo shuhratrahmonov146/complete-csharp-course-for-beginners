@@ -2,7 +2,7 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
-[⬅ Episode 21](../Episode-21-Polymorphism/) · [All episodes](../README.md) · [Episode 25 ➡](../Episode-25-Abstract-Class-vs-Interface/)
+[⬅ Episode 21](../Episode-21-Polymorphism/) · [All episodes](../README.md) · [Episode 23 ➡](../Episode-23-Abstract-Classes/)
 
 Method overloading and method overriding sound similar, but they work very differently. In this video you learn both
 with one project, an **Employee Management System**:
@@ -250,4 +250,4 @@ The full YouTube description of this video (chapters, official links, notes) is 
 
 ---
 
-[⬅ Episode 21](../Episode-21-Polymorphism/) · [All episodes](../README.md) · [Episode 25 ➡](../Episode-25-Abstract-Class-vs-Interface/)
+[⬅ Episode 21](../Episode-21-Polymorphism/) · [All episodes](../README.md) · [Episode 23 ➡](../Episode-23-Abstract-Classes/)
