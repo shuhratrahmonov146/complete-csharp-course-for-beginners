@@ -2,7 +2,7 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
-[⬅ Episode 21](../Episode-21-Polymorphism/) · [All episodes](../README.md) · Next episode: coming soon
+[⬅ Episode 22](../Episode-22-Overloading-vs-Overriding/) · [All episodes](../README.md) · Next episode: coming soon
 
 Abstract class or interface? Both describe what other classes must do, so beginners often ask what the real
 difference is. In this video we build an online store payment system: an abstract `PaymentMethod` base class for what
@@ -481,4 +481,4 @@ The full YouTube description of this video (chapters, official links, notes) is 
 
 ---
 
-[⬅ Episode 21](../Episode-21-Polymorphism/) · [All episodes](../README.md) · Next episode: coming soon
+[⬅ Episode 22](../Episode-22-Overloading-vs-Overriding/) · [All episodes](../README.md) · Next episode: coming soon

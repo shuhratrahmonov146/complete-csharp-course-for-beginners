@@ -1,0 +1,66 @@
+Method overloading and method overriding sound similar, but they work very differently. In this beginner-friendly C# lesson, you learn the difference step by step, and build a real Employee Management System in VS Code that uses both.
+
+This is episode 22 of the Complete C# Course for Beginners on ITHubCoding. It continues from episode 21, C# Polymorphism: https://www.youtube.com/watch?v=Bkaq-nusiJM
+The full course is in the playlist.
+
+WHAT YOU WILL LEARN
+• Method overloading: the same method name with different parameter lists
+• Valid overloads: a different number of parameters, different types, or a different order of types
+• Parameters vs arguments
+• How the compiler picks an overload from the arguments, at compile time (error CS1501 when nothing matches)
+• Method overriding: a derived class gives its own implementation of an inherited virtual or abstract method
+• virtual in the base class, override in the derived class
+• How the real object picks the override while the program runs (runtime polymorphism)
+• Both together: a List of Employee and one foreach loop
+• A side-by-side comparison of overloading and overriding
+• Common mistakes: changing only the return type (CS0111), forgetting virtual (CS0506), override with a different parameter list (CS0115), and forgetting override (warning CS0114)
+
+CHAPTERS
+0:00 Overloading vs overriding: the difference in 30 seconds
+1:10 What is method overloading?
+2:23 Build the overloaded DisplayInformation methods
+4:47 What is method overriding? (virtual and override)
+5:44 Build FullTimeEmployee and PartTimeEmployee
+8:26 Both together: a List of Employee
+9:43 Side-by-side comparison
+10:40 Common mistakes (CS0111, CS0506, CS0115, CS0114)
+13:05 Run the complete app
+13:29 Recap + coding challenge
+
+THE PROGRAM
+EmployeeManagementSystem has an Employee base class with four overloaded DisplayInformation methods and a virtual CalculateSalary method. FullTimeEmployee (a monthly salary) and PartTimeEmployee (hours worked times the hourly rate) override CalculateSalary. Its real output:
+Name: Ali, ID: 101
+Salary: 4500
+
+Name: Maria, ID: 102
+Salary: 1760
+
+Name: Daniel, ID: 103
+Salary: 3800
+
+YOUR CHALLENGE
+1. Overloading: create a Calculator class with three Add methods: two integers, three integers, and two decimal values.
+2. Overriding: create a Notification base class with a virtual Send method, then EmailNotification and SmsNotification classes that override it. Call Send in a loop. Details are in the pinned comment.
+
+SOURCE CODE
+The full code of this episode, explained step by step, with the challenge solution and automated tests:
+https://github.com/shuhratrahmonov146/complete-csharp-course-for-beginners/tree/main/Episode-22-Overloading-vs-Overriding
+
+OFFICIAL DOCUMENTATION
+Methods in C# (method signatures and overloading): https://learn.microsoft.com/dotnet/csharp/methods
+The virtual keyword: https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/virtual
+The override keyword: https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/override
+The abstract keyword: https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/abstract
+Polymorphism: https://learn.microsoft.com/dotnet/csharp/fundamentals/object-oriented/polymorphism
+Knowing when to use override and new: https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/knowing-when-to-use-override-and-new-keywords
+Member overloading guidelines: https://learn.microsoft.com/dotnet/standard/design-guidelines/member-overloading
+
+NOTES
+• Recorded with .NET SDK 10.0.114 and VS Code on Linux. The code works the same on Windows and macOS.
+• The typing, every build, and every run are real. Build waits and file switching are shown at 1.5–4×, always marked on screen with a speed badge.
+• The two mistakes made in VS Code are intentional and undone right away. The slides about forgetting virtual, forgetting override, parameter types and order, and a call with four arguments show real builds and runs of small experiments made off camera.
+• The narration uses a computer-generated (neural text-to-speech) voice. The background music is original, made for this video.
+
+Share your challenge solution in the comments!
+
+#csharp #dotnet #programming

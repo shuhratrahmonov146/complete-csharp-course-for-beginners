@@ -2,7 +2,9 @@
 
 **Playlist:** Complete C# Course for Beginners · **Channel:** [ITHubCoding](https://www.youtube.com/@ithubcoding)
 
-[⬅ Episode 20](../Episode-20-Inheritance/) · [All episodes](../README.md) · [Episode 25 ➡](../Episode-25-Abstract-Class-vs-Interface/)
+▶ **Watch the video:** https://www.youtube.com/watch?v=Bkaq-nusiJM
+
+[⬅ Episode 20](../Episode-20-Inheritance/) · [All episodes](../README.md) · [Episode 22 ➡](../Episode-22-Overloading-vs-Overriding/)
 
 Some employees get a fixed monthly salary. Others are paid for every hour they work. Both are employees, and both
 need a salary, but the calculation is different. In this video you learn **polymorphism**: one method call,
@@ -317,4 +319,4 @@ The full YouTube description of this video (chapters, official links, notes) is 
 
 ---
 
-[⬅ Episode 20](../Episode-20-Inheritance/) · [All episodes](../README.md) · [Episode 25 ➡](../Episode-25-Abstract-Class-vs-Interface/)
+[⬅ Episode 20](../Episode-20-Inheritance/) · [All episodes](../README.md) · [Episode 22 ➡](../Episode-22-Overloading-vs-Overriding/)
